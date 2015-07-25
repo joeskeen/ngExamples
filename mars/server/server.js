@@ -1,5 +1,3 @@
-/// <reference path="../typings/express/express.d.ts" />
-
 var request = require('request');
 var express = require('express');
 var app = express();

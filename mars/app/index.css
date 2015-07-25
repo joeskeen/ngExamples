@@ -12,6 +12,11 @@ md-sidenav {
   color: white;
 }
 
+.attribution {
+  color: gray;
+  font-style: italic;
+}
+
 .nav {
   overflow-x: hidden;
 }
