@@ -1,0 +1,25 @@
+{
+  "name": "tsd-exercise",
+  "version": "0.0.0",
+  "authors": [
+    "Joe Skeen <joeskeen@outlook.com>"
+  ],
+  "description": "Example project for the Managing TypeScript Definition Files with TSD course",
+  "main": "app/index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-material": "~0.10.0",
+    "font-awesome": "~4.3.0",
+    "angular-route": "~1.4.1",
+    "angular-chart": "~0.3.2",
+    "angular-carousel": "~0.3.12",
+    "angular-sanitize": "~1.4.3"
+  }
+}

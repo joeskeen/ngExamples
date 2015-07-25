@@ -1,0 +1,65 @@
+<html lang="en" ng-app="MarsApp">
+  <head>
+    <link rel="stylesheet" href="/bower/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="/bower/angular-material/angular-material.min.css">
+    <link rel="stylesheet" href="/bower/c3/c3.css" />
+    <link href="/bower/angular-carousel/dist/angular-carousel.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic">
+    <link rel="stylesheet" href="/index.css" />
+    <meta name="viewport" content="initial-scale=1" />
+  </head>
+  <body layout="column" ng-controller="MainController as vm">
+    <md-toolbar layout="row">
+      <md-button ng-click="vm.toggleSidenav('left')" hide-gt-sm class="md-icon-button menuBtn">
+        <md-icon aria-label="Menu" md-font-icon="fa-bars" class="fa"></md-icon>
+      </md-button>
+      <h1 layout-align-gt-sm="center" class="md-toolbar-tools">Mars Hub</h1>
+    </md-toolbar>
+    <div layout="row" flex class="content-wrapper">
+        <md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia('gt-sm')">
+          <md-list class="nav">
+            <md-item ng-repeat="it in vm.menuItems">
+              <md-item-content>
+                <md-button ng-click="vm.selectMenuItem(it)" ng-class="{'selected' : it === selected }">
+                  <div class="nav-icon">
+                    <i class="fa fa-{{it.iconClass}}"></i>
+                  </div>
+                  {{it.name}}
+                </md-button>
+              </md-item-content>
+            </md-item>
+          </md-list>
+        </md-sidenav>
+        <div layout="column" flex class="content-wrapper" id="primary-col">
+            <md-content layout="column" flex class="md-padding view-animate-container">
+              <div ng-view class="view-animate"></div>
+            </md-content>
+        </div>
+    </div>
+    <!-- Angular Material Dependencies -->
+    <script src="/bower/angular/angular.min.js"></script>
+    <script src="/bower/angular-sanitize/angular-sanitize.min.js"></script>
+    <script src="/bower/angular-route/angular-route.min.js"></script>
+    <script src="/bower/angular-animate/angular-animate.min.js"></script>
+    <script src="/bower/angular-aria/angular-aria.min.js"></script>
+
+    <script src="/bower/angular-material/angular-material.min.js"></script>
+
+    <script src="/bower/d3/d3.js"></script>
+    <script src="/bower/c3/c3.js"></script>
+    <script src="/bower/angular-chart/angular-chart.js"></script>
+
+    <script src="/bower/angular-touch/angular-touch.js"></script>
+    <script src="/bower/angular-carousel/dist/angular-carousel.js"></script>
+
+    <script src="/app.js"></script>
+    <script src="/index.js"></script>
+    <script src="/weather/weatherController.js"></script>
+    <script src="/weather/weatherService.js"></script>
+    <script src="/photos/photosController.js"></script>
+    <script src="/photos/photosService.js"></script>
+    <script src="/news/newsController.js"></script>
+    <script src="/news/newsService.js"></script>
+
+  </body>
+</html>

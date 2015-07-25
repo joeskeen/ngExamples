@@ -1,0 +1,16 @@
+{
+  "name": "tsd-exercise",
+  "version": "1.0.0",
+  "description": "Example project for the Managing TypeScript Definition Files with TSD course",
+  "main": "server/index.js",
+  "scripts": {},
+  "author": "Joe Skeen <joeskeen@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.4.1"
+  },
+  "dependencies": {
+    "express": "^4.13.0",
+    "request": "^2.58.0"
+  }
+}
