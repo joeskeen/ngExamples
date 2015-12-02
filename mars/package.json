@@ -1,7 +1,7 @@
 {
-  "name": "tsd-exercise",
+  "name": "mars-example",
   "version": "1.0.0",
-  "description": "Example project for the Managing TypeScript Definition Files with TSD course",
+  "description": "Example project",
   "main": "server/index.js",
   "scripts": {},
   "author": "Joe Skeen <joeskeen@outlook.com>",

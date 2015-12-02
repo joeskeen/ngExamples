@@ -31,15 +31,15 @@ function setUpRestApi(app) {
 	});
 
 	app.get('/api/weather', function(req, res) {
-		req.pipe(request('http://marsweather.ingenology.com/v1/latest/'))
+		req.pipe(request.get('http://marsweather.ingenology.com/v1/latest/'))
 		   .pipe(res);
 	});
 
 	app.get('/api/weather/archive', function(req, res) {
 		var thirtyDays = 1000 * 60 * 60 * 24 * 30;
-		var endDate = new Date(Date.now() + thirtyDays);
-		var query = 'terrestrial_date_start='+formatDate(new Date())+'&terrestrial_date_end='+formatDate(endDate);
-		req.pipe(request('http://marsweather.ingenology.com/v1/archive/?'+query))
+		var startDate = new Date(Date.now() - thirtyDays);
+		var query = 'terrestrial_date_start='+formatDate(startDate)+'&terrestrial_date_end='+formatDate(new Date());
+		req.pipe(request.get('http://marsweather.ingenology.com/v1/archive/?'+query))
 		   .pipe(res);
 
 		function formatDate(date) {
@@ -52,12 +52,12 @@ function setUpRestApi(app) {
 	});
 
 	app.get('/api/photos', function(req, res) {
-		req.pipe(request('http://mars-photos.herokuapp.com/api/v1/rovers/curiosity/photos?sol=1000'))
+		req.pipe(request.get('https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=DEMO_KEY'))
 		   .pipe(res);
 	});
 
 	app.get('/api/news', function(req, res) {
-		req.pipe(request('http://twitrss.me/twitter_user_to_rss/?user=MarsCuriosity&fetch=Fetch+RSS'))
+		req.pipe(request.get('http://twitrss.me/twitter_user_to_rss/?user=MarsCuriosity&fetch=Fetch+RSS'))
 		   .pipe(res);
 	});
 }

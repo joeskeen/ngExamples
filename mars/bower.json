@@ -1,10 +1,10 @@
 {
-  "name": "tsd-exercise",
+  "name": "mars-example",
   "version": "0.0.0",
   "authors": [
     "Joe Skeen <joeskeen@outlook.com>"
   ],
-  "description": "Example project for the Managing TypeScript Definition Files with TSD course",
+  "description": "Example project",
   "main": "app/index.html",
   "license": "MIT",
   "ignore": [
