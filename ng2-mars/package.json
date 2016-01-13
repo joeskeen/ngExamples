@@ -1,0 +1,18 @@
+{
+  "name": "mars-example",
+  "description": "Example app for using Angular 2",
+  "author": "Joe Skeen <https://github.com/joeskeen>",
+  "version": "1.0.0",
+  "dependencies": {
+      "client": "./client",
+      "server": "./server"
+  },
+  "devDependencies": {
+    "concurrently": "^1.0.0",
+    "typescript": "^1.7.5"
+  },
+  "scripts": {
+      "start": "pushd server && npm start && popd"
+  },
+  "license": "MIT"
+}

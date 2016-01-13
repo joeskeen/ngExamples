@@ -1,0 +1,17 @@
+{
+  "name": "mars-server",
+  "version": "1.0.0",
+  "main": ".built/src/server.js",
+  "dependencies": {
+    "express": "^4.13.0",
+    "moment": "^2.11.1",
+    "request": "^2.58.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node .built/src/server.js"
+  },
+  "devDependencies": {
+    "concurrently": "^1.0.0"
+  }
+}

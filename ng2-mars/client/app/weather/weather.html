@@ -1,0 +1,48 @@
+<p>weather, whether you like it or not!</p>
+<div>
+    <h2>Most Recent Weather Report</h2>
+    <div *ngIf="!report">
+        Loading...
+    </div>
+    <div *ngIf="report">
+        <b>Date: </b>{{report.sol}} ({{report.terrestrial_date}})<br />
+        <b>High Temp: </b> {{report.max_temp_fahrenheit}}&deg; F<br />
+        <b>Low Temp: </b> {{report.min_temp_fahrenheit}}&deg; F<br />
+        <b>Sky: </b> {{report.atmo_opacity}}<br />
+    </div>
+</div>
+<div>
+    <h2>Last 30 Days</h2>
+    <div *ngIf="!archive">
+        Loading...
+    </div>
+    <div *ngIf="archive">
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>High Temp</th>
+                <th>Low Temp</th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr *ngFor="#entry of archive.results">
+                <td>{{entry.sol}}<br />({{ entry.terrestrial_date }})</td>
+                <td>{{entry.max_temp}}&deg;C<br />({{entry.max_temp_fahrenheit}}&deg;F)</td>
+                <td>{{entry.min_temp}}&deg;C<br />({{entry.min_temp_fahrenheit}}&deg;F)</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</div>

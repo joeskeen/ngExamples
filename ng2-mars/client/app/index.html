@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <base href="/">
+    <title>Mars Hub</title>
+
+    <script src="/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="/systemjs/dist/system.src.js"></script>
+    <script src="/rxjs/bundles/Rx.js"></script>
+    <script src="/angular2/bundles/angular2.dev.js"></script>
+    <script src="/angular2/bundles/router.dev.js"></script>
+
+    <script>
+      System.config({
+        packages: {
+          './': {
+            format: 'register',
+            defaultExtension: 'js'
+          },
+          angular2: {
+              format: 'cjs',
+              defaultExtension: 'js'
+          },
+          rxjs: {
+              format: 'cjs',
+              defaultExtension: 'js'
+          }
+        },
+        transpiler: 'typescript'
+      });
+      System.import('boot')
+            .then(null, console.error.bind(console));
+    </script>
+  </head>
+
+  <body>
+    <mars-app>Loading...</mars-app>
+  </body>
+
+</html>
