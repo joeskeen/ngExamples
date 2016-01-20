@@ -6,7 +6,7 @@
 	NewsService.$inject = ['$http'];
 	function NewsService($http) {
 		return {
-			getNews
+			getNews: getNews
 		};
 
 		function getNews() {

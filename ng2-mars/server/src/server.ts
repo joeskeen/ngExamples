@@ -9,11 +9,14 @@ const app = express();
 
 const appBuilt = join(__dirname, '../../../client/.built');
 const appHtml = join(__dirname, '../../../client/app');
-const appDeps = join(__dirname, '../../../client/node_modules');
+const appNodeModules = join(__dirname, '../../../client/node_modules');
+const appJspmModules = join(__dirname, '../../../client/jspm_packages');
 
 app.use(express.static(appHtml));
 app.use(express.static(appBuilt));
-app.use(express.static(appDeps));
+app.use(express.static(appNodeModules));
+// app.use('/lib', express.static(appNodeModules));
+// app.use('/lib', express.static(appJspmModules));
 
 setUpRestApi(app);
 
@@ -37,18 +40,19 @@ function setUpRestApi(app: express.Express) {
 
 	app.get('/api/weather', (req, res) => {
 		req.pipe(request('http://marsweather.ingenology.com/v1/latest/'))
-		   .pipe(res);
+		   .pipe(res)
+       .on('error', error => console.dir(error));
 	});
 
 	app.get('/api/weather/archive', (req, res) => {
-        const now = moment();
-        const start = now.clone().subtract(30, 'days');
-        const format = (moment: moment.Moment) => moment.format('YYYY-MM-DD');
-		const query = `terrestrial_date_start=${format(start)}&terrestrial_date_end=${format(now)}`;
-        console.log(`querying ${query}...`);
+    const now = moment();
+    const start = now.clone().subtract(30, 'days');
+    const format = (moment: moment.Moment) => moment.format('YYYY-MM-DD');
+    const query = `terrestrial_date_start=${format(start)}&terrestrial_date_end=${format(now)}`;
 
 		req.pipe(request(`http://marsweather.ingenology.com/v1/archive/?${query}`))
-		   .pipe(res);
+		   .pipe(res)
+       .on('error', error => console.dir(error));
 	});
 
 	app.get('/api/photos', (req, res) => {

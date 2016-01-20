@@ -1,1 +1,8 @@
 <p>and here's the news...</p>
+
+<div *ngFor="#tweet of news" style="border: solid black 1px;">
+  <a [href]="tweet.link">On Twitter</a><br/>
+  {{tweet.author}}<br/>
+  {{tweet.pubDate}}<br/>
+  <div [innerHTML]="tweet.description"></div>
+</div>

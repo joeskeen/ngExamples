@@ -5,6 +5,7 @@
     <base href="/">
     <title>Mars Hub</title>
 
+    <script src="/jquery/dist/jquery.min.js"></script>
     <script src="/angular2/bundles/angular2-polyfills.js"></script>
     <script src="/systemjs/dist/system.src.js"></script>
     <script src="/rxjs/bundles/Rx.js"></script>
@@ -29,7 +30,7 @@
         },
         transpiler: 'typescript'
       });
-      System.import('boot')
+      System.import('./boot')
             .then(null, console.error.bind(console));
     </script>
   </head>

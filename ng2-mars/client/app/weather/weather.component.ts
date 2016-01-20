@@ -1,5 +1,6 @@
 import { Component, OnInit } from 'angular2/core';
-import { WeatherService, IWeatherReport, IWeatherArchive } from './weather.service';
+import { WeatherService } from './weather.service';
+import * as models from './weather.models';
 import { COMMON_DIRECTIVES } from 'angular2/common';
 
 @Component({
@@ -9,8 +10,8 @@ import { COMMON_DIRECTIVES } from 'angular2/common';
     directives: [ COMMON_DIRECTIVES ]
 })
 export class WeatherComponent implements OnInit {
-    report: IWeatherReport;
-    archive: IWeatherArchive;
+    report: models.IWeatherReport;
+    archive: models.IWeatherArchive;
 
     constructor(private _weatherService: WeatherService) {
     }
@@ -21,14 +22,8 @@ export class WeatherComponent implements OnInit {
 
     private loadData() {
         this._weatherService.getCurrentWeatherData()
-            .then(report => {
-                this.report = report;
-            }).catch(err => console.log('error', err));
+            .then(report => this.report = report);
         this._weatherService.getWeatherDataForLastMonth()
-            .then(data => {
-                console.log(data);
-                this.archive = data;
-            })
-            .catch(err => console.log('error', err));;
+            .then(data => this.archive = data);
     }
 }
