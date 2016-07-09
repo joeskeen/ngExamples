@@ -1,0 +1,20 @@
+{
+  "name": "mars-example",
+  "version": "0.0.0",
+  "authors": [
+    "Joe Skeen <joeskeen@outlook.com>"
+  ],
+  "description": "Example project",
+  "main": "app/index.html",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "angular": "^1.5.7",
+    "angular-material": "^1.0.9",
+    "font-awesome": "^4.6.3",
+    "angular-route": "^1.5.7",
+    "angular-chart": "^0.5.0",
+    "angular-carousel": "^1.0.1",
+    "angular-sanitize": "^1.5.7"
+  }
+}

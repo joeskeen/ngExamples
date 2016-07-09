@@ -1,0 +1,57 @@
+<html lang="en" ng-app="MarsApp">
+
+<head>
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- endbower -->
+  <!-- inject:font-awesome -->
+  <!-- endinject -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- endbuild -->
+  <!-- build:css styles/main.css -->
+  <!-- inject:css -->
+  <!-- endinject -->
+  <!-- endbuild -->
+  <meta name="viewport" content="initial-scale=1" />
+</head>
+
+<body layout="column" ng-controller="MainController as vm">
+  <md-toolbar layout="row">
+    <md-button ng-click="vm.toggleSidenav('left')" hide-gt-sm class="md-icon-button menuBtn">
+      <span class="fa fa-bars"></span>
+    </md-button>
+    <h1 layout-align-gt-sm="center" class="md-toolbar-tools">Mars Hub</h1>
+  </md-toolbar>
+  <div layout="row" flex class="content-wrapper">
+    <md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia('gt-sm')">
+      <md-list class="nav">
+        <md-item ng-repeat="it in vm.menuItems">
+          <md-item-content>
+            <md-button ng-click="vm.selectMenuItem(it)" ng-class="{'selected' : it === selected }">
+              <div class="nav-icon">
+                <i class="fa fa-{{it.iconClass}}"></i>
+              </div>
+              {{it.name}}
+            </md-button>
+          </md-item-content>
+        </md-item>
+      </md-list>
+    </md-sidenav>
+    <div layout="column" flex class="content-wrapper" id="primary-col">
+      <md-content layout="column" flex class="md-padding view-animate-container">
+        <div ng-view class="view-animate"></div>
+      </md-content>
+    </div>
+  </div>
+  <!-- build:js scripts/vendor.js -->
+  <!-- bower:js -->
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- build:js scripts/scripts.js -->
+  <!-- inject:js -->
+  <!-- endinject -->
+  <!-- endbuild -->
+
+</body>
+
+</html>

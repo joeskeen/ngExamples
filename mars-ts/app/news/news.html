@@ -1,0 +1,15 @@
+<h1>News from Mars!</h1>
+
+<md-card ng-repeat="tweet in vm.news.rss.channel.item"
+		 style="margin-bottom: 10px; padding: 10px; position: relative;">
+	<span style="position: absolute; top: 10px; right: 10px; font-size: 20px;">
+		<a href="{{tweet.link}}">
+			<i class="fa fa-twitter"></i>
+		</a>
+	</span>
+	<span>{{tweet['dc:creator']}}</span><br />
+	<span>{{tweet.pubDate | date : 'MMM d, yyyy, h:mm a'}}</span><br />
+	<span ng-bind-html="tweet.description"></span>
+</md-card>
+
+<span class="attribution">Data provided from Twitter (<a href="https://twitter.com/MarsCuriosity">@MarsCuriosity</a>) via <a href="http://twitrss.me/">twitrss.me</a></span>

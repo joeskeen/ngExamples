@@ -1,0 +1,11 @@
+<h1>Photos</h1>
+
+<div style="height: 500px;">
+  <ul rn-carousel class="image" style="height:100%;">
+    <li ng-repeat="photo in vm.photos">
+      <div class="layer"><img ng-src="{{photo.img_src}}" /></div>
+    </li>
+  </ul>
+</div>
+
+<span class="attribution">Data provided through the <a href="https://github.com/chrisccerami/mars-photo-api">mars-photo-api</a></span>

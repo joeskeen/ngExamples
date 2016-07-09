@@ -1,0 +1,78 @@
+{
+  "rules": {
+    "ban": [false,
+        ["_", "extend"],
+        ["_", "isNull"],
+        ["_", "isDefined"]
+    ],
+    "class-name": false,
+    "comment-format": [false,
+        "check-space"
+    ],
+    "curly": false,
+    "eofline": false,
+    "forin": false,
+    "indent": [false, 4],
+    "interface-name": false,
+    "jsdoc-format": false,
+    "label-position": false,
+    "label-undefined": false,
+    "max-line-length": [false, 140],
+    "no-arg": false,
+    "no-bitwise": false,
+    "no-console": [false,
+        "debug",
+        "info",
+        "time",
+        "timeEnd",
+        "trace"
+    ],
+    "no-construct": false,
+    "no-debugger": false,
+    "no-duplicate-key": false,
+    "no-duplicate-variable": false,
+    "no-empty": false,
+    "no-eval": false,
+    "no-string-literal": false,
+    "no-trailing-whitespace": false,
+    "no-unused-expression": false,
+    "no-unused-variable": false,
+    "no-unreachable": false,
+    "no-use-before-declare": false,
+    "one-line": [false,
+        "check-open-brace",
+        "check-catch",
+        "check-else",
+        "check-whitespace"
+    ],
+    "quotemark": [false, "single"],
+    "radix": false,
+    "semicolon": false,
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "never",
+        "singleline": "never"
+      }
+    ],
+    "triple-equals": [false, "allow-null-check"],
+    "typedef": [false,
+        "indexSignature",
+        "propertySignature"
+    ],
+    "typedef-whitespace": [false,
+        ["callSignature", "noSpace"],
+        ["catchClause", "noSpace"],
+        ["indexSignature", "space"]
+    ],
+    "use-strict": false,
+    "variable-name": [false, "allow-leading-underscore"],
+    "whitespace": [false,
+        "check-branch",
+        "check-decl",
+        "check-operator",
+        "check-separator",
+        "check-type"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+<h1>Weather</h1>
+<md-card>
+	<div style="display:flex;flex-flow: row;">
+		<div style="width: auto; padding:5px;">
+			<span class="fa fa-sun-o" style="font-size: 70px; color: #CD9741"></span>
+		</div>
+		<div style="flex:1">
+
+			<b>Date: </b>{{vm.report.sol}} ({{vm.report.terrestrial_date | date}})<br />
+			<b>High Temp: </b> {{vm.report.max_temp_fahrenheit | number}}&deg; F<br />
+			<b>Low Temp: </b> {{vm.report.min_temp_fahrenheit | number}}&deg; F<br />
+			<b>Sky: </b> {{vm.report.atmo_opacity}}<br />
+
+		</div>
+	</div>
+</md-card>
+<h3>Last 30 Days</h3>
+<angular-chart options="vm.chartOptions"></angular-chart>
+
+<span class="attribution">Data provided through the <a href="http://marsweather.ingenology.com/">MAAS api</a></span>
