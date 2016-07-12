@@ -17,11 +17,13 @@ export function js(src: string | string[], dest: string, annotate?: boolean) {
     .pipe($.tslint.report('verbose'))
     .pipe($.sourcemaps.init())
       .pipe($.typescript({
-        typescript: require('typescript')
+        typescript: require('typescript'),
+        skipLibCheck: true,
+        traceResolution: true
       }))
       .js
       .pipe($.if(annotate, $.ngAnnotate({ single_quotes: true })))
-    .pipe($.sourcemaps.write({ includeContent: false }))
+    .pipe($.sourcemaps.write({ includeContent: false, sourceRoot: '.' }))
     .pipe(gulp.dest(dest));
 }
 

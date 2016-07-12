@@ -1,3 +1,6 @@
+/// <reference types="angular" />
+/// <reference types="angular-material" />
+
 'use strict';
 namespace mars {
   
