@@ -1,6 +1,3 @@
-/// <reference types="angular" />
-/// <reference types="angular-material" />
-
 'use strict';
 namespace mars {
   
@@ -13,7 +10,7 @@ namespace mars {
     ];
 
     /*! @ngInject */
-    constructor(private $mdSidenav: angular.material.MDSidenavService, 
+    constructor(private $mdSidenav: angular.material.ISidenavService, 
                 private $location: ng.ILocationService) {
     }
 

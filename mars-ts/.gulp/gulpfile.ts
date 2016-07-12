@@ -1,4 +1,5 @@
 import * as gulp from 'gulp';
+import * as del from 'del';
 
 import { $ } from './plugins';
 import { config } from './config';
@@ -18,6 +19,8 @@ gulp.task('run-server', ['build-server', 'build', 'watch-client', 'watch-server'
   script: `${config.out.serverBuilt}server.js`,
   watch: [ config.out.serverBuilt ]
 }));
+
+gulp.task('clean', () => del(config.out.root));
 
 gulp.task('watch-client', () => gulp.watch(
   [ config.all('{ts,scss,html}', config.client.root) ], 

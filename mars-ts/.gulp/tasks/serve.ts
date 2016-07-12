@@ -52,12 +52,12 @@ export function serve(options: IServeOptions, watchFiles: string[], done?: Funct
 
 export function serveDev() {
 	const watchFiles = [
-		config.all(null, config.app.root),
-		config.all(null, config.out.built),
+		config.all(null, config.client.root),
+		config.all(null, config.out.clientBuilt),
 		//don't watch the files we build, we will watch the output instead
-		`!${config.all('html', config.app.root)}`,
-		`!${config.all('ts', config.app.root)}`,
-		`!${config.all('sass', config.app.root)}`
+		`!${config.all('html', config.client.root)}`,
+		`!${config.all('ts', config.client.root)}`,
+		`!${config.all('sass', config.client.root)}`
 	];
 	return serve({
 			root: config.searchPath(),

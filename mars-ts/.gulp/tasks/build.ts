@@ -18,8 +18,7 @@ export function js(src: string | string[], dest: string, annotate?: boolean) {
     .pipe($.sourcemaps.init())
       .pipe($.typescript({
         typescript: require('typescript'),
-        skipLibCheck: true,
-        traceResolution: true
+        skipLibCheck: true
       }))
       .js
       .pipe($.if(annotate, $.ngAnnotate({ single_quotes: true })))

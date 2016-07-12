@@ -8,8 +8,9 @@
   "license": "MIT",
   "devDependencies": {
     "@types/angular": "*",
-    "@types/angular-material": "*",
+    "@types/angular-material": "^1.0.29-alpha",
     "@types/browser-sync": "*",
+    "@types/del": "^2.2.29-alpha",
     "@types/express": "*",
     "@types/gulp": "*",
     "@types/gulp-autoprefixer": "*",
@@ -29,6 +30,7 @@
     "@types/yargs": "*",
     "bower": "^1.4.1",
     "browser-sync": "^2.13.0",
+    "del": "^2.2.1",
     "gulp-angular-templatecache": "^1.8.0",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-changed": "^1.3.0",
