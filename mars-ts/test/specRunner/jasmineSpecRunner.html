@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>[mars-ts] Jasmine Spec Runner</title>
+  <link class="favicon" rel="shortcut icon" href="jasmine_32x32.ico" />
+  <link class="favicon" rel="icon" href="jasmine_32x32.ico" />
+
+  <style>
+    .ta-hidden-input {
+      display: none;
+    }
+  </style>
+
+  <!-- inject:jasmine -->
+  <!-- endinject -->
+
+  <!-- bower:js -->
+  <!-- endbower -->
+
+  <!-- inject:js -->
+  <!-- endinject -->
+
+  <!-- inject:angular-mocks -->
+  <!-- endinject -->
+  <!-- inject:q -->
+  <!-- endinject -->
+
+  <!-- inject:spec -->
+  <!-- endinject -->
+</head>
+
+<body>
+  <audio id="failureSound" src="A-Tone-His_Self-1266414414.mp3" style="position: absolute; bottom: 0; right: 0;" preload="auto"></audio>
+  <script type="text/javascript">
+    notifyIfFailure();
+
+  function notifyIfFailure() {
+    var summary = document.getElementsByClassName('jasmine-bar')[0];
+    if (!summary) {
+      setTimeout(function() { notifyIfFailure(); }, 250);
+      return;
+    }
+
+    var innerText = summary.innerText;
+    var failuresMatch = / (\d+) failure/.exec(innerText);
+    if (!failuresMatch) {
+      setTimeout(notifyIfFailure, 250);
+      return;
+    }
+
+    var numFailures = Number(failuresMatch[1]);
+    var hasFailed = Boolean(numFailures);
+    var message, icon;
+    if (hasFailed) {
+      message = /* '✕ ' + */ numFailures + ' failure(s)';
+      icon = 'delete_2.png';
+      document.title = message;
+      var sound = document.getElementById('failureSound');
+      sound.play();
+      setIcon(icon);
+      notifyMe(message, icon);
+    } else {
+      var passed = Number(/(\d+) spec/.exec(innerText)[1]);
+      message = /* '✓ ' + */ passed + ' tests passed';
+      icon = 'check-64.png';
+      document.title = message;
+      setIcon(icon);
+      notifyMe(message, icon);
+    }
+  }
+
+  function setIcon(url) {
+    var icon=$('.favicon');
+    icon.each(function(index, element) {
+      $(element).attr('href', url);
+    });
+  }
+
+  /* see http://stackoverflow.com/a/13328397/1396477 */
+  document.addEventListener('DOMContentLoaded', function () {
+    if (Notification.permission !== "granted")
+      Notification.requestPermission();
+  });
+  function notifyMe(message, iconUrl) {
+    if (!Notification) {
+      console.warn('Desktop notifications not available in your browser. Try Chromium.');
+      return;
+    }
+
+    if (Notification.permission !== "granted")
+      Notification.requestPermission();
+
+    if (Notification.permission !== "granted")
+      return;
+
+    var notification = new Notification('Cohort Extractor Unit Test Run', {
+      icon: iconUrl,
+      body: message,
+    });
+
+    notification.onclick = function () {
+    };
+  }
+  </script>
+</body>
+
+</html>

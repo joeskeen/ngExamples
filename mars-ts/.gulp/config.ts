@@ -1,4 +1,6 @@
-/// <reference types="node" />
+/// <reference path="../typings/globals/node/index.d.ts" />
+/// <reference path="../typings/globals/gulp/index.d.ts" />
+/// <reference path="../typings/globals/yargs/index.d.ts" />
 
 import * as path from 'path';
 
@@ -11,8 +13,7 @@ const clientRoot = './app/';
 const assetsRoot = clientRoot;
 const outRoot = './.generated/';
 const bowerRoot = './bower_components/';
-//const testRoot = '../../test/js/';
-const mavenProjectRoot = '../../../../';
+const testRoot = './test/';
 const backendRoot = `./server/`;
 
 export const config = {
@@ -21,7 +22,8 @@ export const config = {
     index: `${clientRoot}index.html`
   },
   server: {
-    root: backendRoot
+    root: backendRoot,
+    config: `${backendRoot}serverConfig.json`
   },
   out: {
     root: outRoot,
@@ -58,40 +60,32 @@ export const config = {
   },
   bower: bowerRoot,
   nodeModules: './node_modules/',
-  // backend: {
-  //   root: backendRoot,
-  //   mavenProjectRoot: mavenProjectRoot,
-  //   configPath: `${backendRoot}src/main/resources/config/application-dev.yml`,
-  //   builtJarDir: `${backendRoot}target/`,
-  //   jarPattern: /^myTestApp-services-.*?\.jar$/i,
-  //   url: () => `http://localhost:${backendConfig.server.port}/`
-  // },
   constants: {
     dev: { ENV: { isDev: true, testingOn: true } },
     dist: { ENV: { isDev: true, testingOn: false } },
     prod: { ENV: { isDev: false, testingOn: false } },
     globalConfigFile: './.gulp/deploy.config.json'
   },
-  // test: {
-  //   root: testRoot,
-  //   spec: {
-  //     runner: `${testRoot}specRunner/jasmineSpecRunner.html`,
-  //     ts: [
-  //       all('ts', `${testRoot}spec/`),
-  //       all('spec.ts', clientRoot)
-  //     ],
-  //     karmaConfig: `${testRoot}karma.conf.ts`
-  //   },
-  //   e2e: {
-  //     root: `${testRoot}functional/`,
-  //     tests: [
-  //       `${testRoot}functional/**/*.ts`,
-  //       `!${testRoot}functional/*conf*.ts`,
-  //     ],
-  //     localConf: `${testRoot}functional/conf.js`
-  //   }
-  // },
-  serve: { port: 9052, testPort: 9152 },
+  test: {
+    root: testRoot,
+    spec: {
+      runner: `${testRoot}specRunner/jasmineSpecRunner.html`,
+      ts: [
+        all('ts', `${testRoot}spec/`),
+        all('spec.ts', clientRoot)
+      ],
+      karmaConfig: `${testRoot}karma.conf.ts`
+    },
+    e2e: {
+      root: `${testRoot}functional/`,
+      tests: [
+        `${testRoot}functional/**/*.ts`,
+        `!${testRoot}functional/*conf*.ts`,
+      ],
+      localConf: `${testRoot}functional/conf.js`
+    }
+  },
+  serve: { port: 3000, testPort: 3100 },
   all: all,
   allFonts: allFonts,
   allImages: allImages,
@@ -103,12 +97,12 @@ export const config = {
       config.assets.root,
       config.bower
     ].concat(config.assets.fonts.map(f => <string>f.src)), //set below
-  // testSearchPath: () => [ config.nodeModules ]
-  //   .concat(config.searchPath())
-  //   .concat([  
-  //     config.out.test.spec,
-  //     path.dirname(config.test.spec.runner)
-  //   ])
+  testSearchPath: () => [ config.nodeModules ]
+    .concat(config.searchPath())
+    .concat([  
+      config.out.test.spec,
+      path.dirname(config.test.spec.runner)
+    ])
 };
 
 ///////////////////////////////////////
@@ -124,6 +118,8 @@ export const args = yargs
   .argv;
 
 export const runtimeConfig: { [key: string]: any } = {};
+
+export const serverConfig = JSON.parse(fs.readFileSync(config.server.config).toString());
 
 export interface IFileCollection {
   src: string | string[];

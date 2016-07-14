@@ -76,8 +76,6 @@ import * as gulpAutoprefixer from 'gulp-autoprefixer';
 import * as gulpUseref from 'gulp-useref';
 import * as gulpUglify from 'gulp-uglify';
 import * as gulpCsso from 'gulp-csso';
-import * as gulpRev from 'gulp-rev';
-import * as gulpRevReplace from 'gulp-rev-replace';
 import * as gulpReplace from 'gulp-replace';
 import * as gulpTslint from 'gulp-tslint';
 import * as gulpProtractor from 'gulp-protractor';

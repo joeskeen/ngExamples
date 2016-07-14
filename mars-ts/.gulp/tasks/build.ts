@@ -1,3 +1,5 @@
+/// <reference path="../../typings/globals/wiredep/index.d.ts" />
+
 import * as gulp from 'gulp';
 import { stream as wiredep } from 'wiredep';
 import * as path from 'path';

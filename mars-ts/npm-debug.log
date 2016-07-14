@@ -1,0 +1,2168 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/Users/jsskeen/.node_modules/.npm-packages/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@3.9.5
+3 info using node@v6.0.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData @types/angular
+20 silly mapToRegistry name @types/angular
+21 silly mapToRegistry scope (from package name) @types
+22 verbose mapToRegistry no registry URL found in name for scope @types
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry data Result {
+25 silly mapToRegistry   raw: '@types/angular',
+25 silly mapToRegistry   scope: '@types',
+25 silly mapToRegistry   name: '@types/angular',
+25 silly mapToRegistry   rawSpec: '',
+25 silly mapToRegistry   spec: 'latest',
+25 silly mapToRegistry   type: 'tag' }
+26 silly mapToRegistry uri https://registry.npmjs.org/@types%2fangular
+27 silly fetchNamedPackageData @types/angular-material
+28 silly mapToRegistry name @types/angular-material
+29 silly mapToRegistry scope (from package name) @types
+30 verbose mapToRegistry no registry URL found in name for scope @types
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry data Result {
+33 silly mapToRegistry   raw: '@types/angular-material',
+33 silly mapToRegistry   scope: '@types',
+33 silly mapToRegistry   name: '@types/angular-material',
+33 silly mapToRegistry   rawSpec: '',
+33 silly mapToRegistry   spec: 'latest',
+33 silly mapToRegistry   type: 'tag' }
+34 silly mapToRegistry uri https://registry.npmjs.org/@types%2fangular-material
+35 silly fetchNamedPackageData @types/browser-sync
+36 silly mapToRegistry name @types/browser-sync
+37 silly mapToRegistry scope (from package name) @types
+38 verbose mapToRegistry no registry URL found in name for scope @types
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: '@types/browser-sync',
+41 silly mapToRegistry   scope: '@types',
+41 silly mapToRegistry   name: '@types/browser-sync',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/@types%2fbrowser-sync
+43 silly fetchNamedPackageData @types/del
+44 silly mapToRegistry name @types/del
+45 silly mapToRegistry scope (from package name) @types
+46 verbose mapToRegistry no registry URL found in name for scope @types
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: '@types/del',
+49 silly mapToRegistry   scope: '@types',
+49 silly mapToRegistry   name: '@types/del',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/@types%2fdel
+51 silly fetchNamedPackageData @types/express
+52 silly mapToRegistry name @types/express
+53 silly mapToRegistry scope (from package name) @types
+54 verbose mapToRegistry no registry URL found in name for scope @types
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: '@types/express',
+57 silly mapToRegistry   scope: '@types',
+57 silly mapToRegistry   name: '@types/express',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri https://registry.npmjs.org/@types%2fexpress
+59 silly fetchNamedPackageData @types/gulp
+60 silly mapToRegistry name @types/gulp
+61 silly mapToRegistry scope (from package name) @types
+62 verbose mapToRegistry no registry URL found in name for scope @types
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: '@types/gulp',
+65 silly mapToRegistry   scope: '@types',
+65 silly mapToRegistry   name: '@types/gulp',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/@types%2fgulp
+67 silly fetchNamedPackageData @types/gulp-autoprefixer
+68 silly mapToRegistry name @types/gulp-autoprefixer
+69 silly mapToRegistry scope (from package name) @types
+70 verbose mapToRegistry no registry URL found in name for scope @types
+71 silly mapToRegistry using default registry
+72 silly mapToRegistry registry https://registry.npmjs.org/
+73 silly mapToRegistry data Result {
+73 silly mapToRegistry   raw: '@types/gulp-autoprefixer',
+73 silly mapToRegistry   scope: '@types',
+73 silly mapToRegistry   name: '@types/gulp-autoprefixer',
+73 silly mapToRegistry   rawSpec: '',
+73 silly mapToRegistry   spec: 'latest',
+73 silly mapToRegistry   type: 'tag' }
+74 silly mapToRegistry uri https://registry.npmjs.org/@types%2fgulp-autoprefixer
+75 silly fetchNamedPackageData @types/gulp-if
+76 silly mapToRegistry name @types/gulp-if
+77 silly mapToRegistry scope (from package name) @types
+78 verbose mapToRegistry no registry URL found in name for scope @types
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry data Result {
+81 silly mapToRegistry   raw: '@types/gulp-if',
+81 silly mapToRegistry   scope: '@types',
+81 silly mapToRegistry   name: '@types/gulp-if',
+81 silly mapToRegistry   rawSpec: '',
+81 silly mapToRegistry   spec: 'latest',
+81 silly mapToRegistry   type: 'tag' }
+82 silly mapToRegistry uri https://registry.npmjs.org/@types%2fgulp-if
+83 silly fetchNamedPackageData @types/gulp-load-plugins
+84 silly mapToRegistry name @types/gulp-load-plugins
+85 silly mapToRegistry scope (from package name) @types
+86 verbose mapToRegistry no registry URL found in name for scope @types
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry data Result {
+89 silly mapToRegistry   raw: '@types/gulp-load-plugins',
+89 silly mapToRegistry   scope: '@types',
+89 silly mapToRegistry   name: '@types/gulp-load-plugins',
+89 silly mapToRegistry   rawSpec: '',
+89 silly mapToRegistry   spec: 'latest',
+89 silly mapToRegistry   type: 'tag' }
+90 silly mapToRegistry uri https://registry.npmjs.org/@types%2fgulp-load-plugins
+91 silly fetchNamedPackageData @types/gulp-nodemon
+92 silly mapToRegistry name @types/gulp-nodemon
+93 silly mapToRegistry scope (from package name) @types
+94 verbose mapToRegistry no registry URL found in name for scope @types
+95 silly mapToRegistry using default registry
+96 silly mapToRegistry registry https://registry.npmjs.org/
+97 silly mapToRegistry data Result {
+97 silly mapToRegistry   raw: '@types/gulp-nodemon',
+97 silly mapToRegistry   scope: '@types',
+97 silly mapToRegistry   name: '@types/gulp-nodemon',
+97 silly mapToRegistry   rawSpec: '',
+97 silly mapToRegistry   spec: 'latest',
+97 silly mapToRegistry   type: 'tag' }
+98 silly mapToRegistry uri https://registry.npmjs.org/@types%2fgulp-nodemon
+99 silly fetchNamedPackageData @types/gulp-replace
+100 silly mapToRegistry name @types/gulp-replace
+101 silly mapToRegistry scope (from package name) @types
+102 verbose mapToRegistry no registry URL found in name for scope @types
+103 silly mapToRegistry using default registry
+104 silly mapToRegistry registry https://registry.npmjs.org/
+105 silly mapToRegistry data Result {
+105 silly mapToRegistry   raw: '@types/gulp-replace',
+105 silly mapToRegistry   scope: '@types',
+105 silly mapToRegistry   name: '@types/gulp-replace',
+105 silly mapToRegistry   rawSpec: '',
+105 silly mapToRegistry   spec: 'latest',
+105 silly mapToRegistry   type: 'tag' }
+106 silly mapToRegistry uri https://registry.npmjs.org/@types%2fgulp-replace
+107 silly fetchNamedPackageData @types/gulp-rev
+108 silly mapToRegistry name @types/gulp-rev
+109 silly mapToRegistry scope (from package name) @types
+110 verbose mapToRegistry no registry URL found in name for scope @types
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry https://registry.npmjs.org/
+113 silly mapToRegistry data Result {
+113 silly mapToRegistry   raw: '@types/gulp-rev',
+113 silly mapToRegistry   scope: '@types',
+113 silly mapToRegistry   name: '@types/gulp-rev',
+113 silly mapToRegistry   rawSpec: '',
+113 silly mapToRegistry   spec: 'latest',
+113 silly mapToRegistry   type: 'tag' }
+114 silly mapToRegistry uri https://registry.npmjs.org/@types%2fgulp-rev
+115 silly fetchNamedPackageData @types/gulp-rev-replace
+116 silly mapToRegistry name @types/gulp-rev-replace
+117 silly mapToRegistry scope (from package name) @types
+118 verbose mapToRegistry no registry URL found in name for scope @types
+119 silly mapToRegistry using default registry
+120 silly mapToRegistry registry https://registry.npmjs.org/
+121 silly mapToRegistry data Result {
+121 silly mapToRegistry   raw: '@types/gulp-rev-replace',
+121 silly mapToRegistry   scope: '@types',
+121 silly mapToRegistry   name: '@types/gulp-rev-replace',
+121 silly mapToRegistry   rawSpec: '',
+121 silly mapToRegistry   spec: 'latest',
+121 silly mapToRegistry   type: 'tag' }
+122 silly mapToRegistry uri https://registry.npmjs.org/@types%2fgulp-rev-replace
+123 silly fetchNamedPackageData @types/gulp-sass
+124 silly mapToRegistry name @types/gulp-sass
+125 silly mapToRegistry scope (from package name) @types
+126 verbose mapToRegistry no registry URL found in name for scope @types
+127 silly mapToRegistry using default registry
+128 silly mapToRegistry registry https://registry.npmjs.org/
+129 silly mapToRegistry data Result {
+129 silly mapToRegistry   raw: '@types/gulp-sass',
+129 silly mapToRegistry   scope: '@types',
+129 silly mapToRegistry   name: '@types/gulp-sass',
+129 silly mapToRegistry   rawSpec: '',
+129 silly mapToRegistry   spec: 'latest',
+129 silly mapToRegistry   type: 'tag' }
+130 silly mapToRegistry uri https://registry.npmjs.org/@types%2fgulp-sass
+131 silly fetchNamedPackageData @types/gulp-sourcemaps
+132 silly mapToRegistry name @types/gulp-sourcemaps
+133 silly mapToRegistry scope (from package name) @types
+134 verbose mapToRegistry no registry URL found in name for scope @types
+135 silly mapToRegistry using default registry
+136 silly mapToRegistry registry https://registry.npmjs.org/
+137 silly mapToRegistry data Result {
+137 silly mapToRegistry   raw: '@types/gulp-sourcemaps',
+137 silly mapToRegistry   scope: '@types',
+137 silly mapToRegistry   name: '@types/gulp-sourcemaps',
+137 silly mapToRegistry   rawSpec: '',
+137 silly mapToRegistry   spec: 'latest',
+137 silly mapToRegistry   type: 'tag' }
+138 silly mapToRegistry uri https://registry.npmjs.org/@types%2fgulp-sourcemaps
+139 silly fetchNamedPackageData @types/karma
+140 silly mapToRegistry name @types/karma
+141 silly mapToRegistry scope (from package name) @types
+142 verbose mapToRegistry no registry URL found in name for scope @types
+143 silly mapToRegistry using default registry
+144 silly mapToRegistry registry https://registry.npmjs.org/
+145 silly mapToRegistry data Result {
+145 silly mapToRegistry   raw: '@types/karma',
+145 silly mapToRegistry   scope: '@types',
+145 silly mapToRegistry   name: '@types/karma',
+145 silly mapToRegistry   rawSpec: '',
+145 silly mapToRegistry   spec: 'latest',
+145 silly mapToRegistry   type: 'tag' }
+146 silly mapToRegistry uri https://registry.npmjs.org/@types%2fkarma
+147 silly fetchNamedPackageData @types/node
+148 silly mapToRegistry name @types/node
+149 silly mapToRegistry scope (from package name) @types
+150 verbose mapToRegistry no registry URL found in name for scope @types
+151 silly mapToRegistry using default registry
+152 silly mapToRegistry registry https://registry.npmjs.org/
+153 silly mapToRegistry data Result {
+153 silly mapToRegistry   raw: '@types/node',
+153 silly mapToRegistry   scope: '@types',
+153 silly mapToRegistry   name: '@types/node',
+153 silly mapToRegistry   rawSpec: '',
+153 silly mapToRegistry   spec: 'latest',
+153 silly mapToRegistry   type: 'tag' }
+154 silly mapToRegistry uri https://registry.npmjs.org/@types%2fnode
+155 silly fetchNamedPackageData @types/request
+156 silly mapToRegistry name @types/request
+157 silly mapToRegistry scope (from package name) @types
+158 verbose mapToRegistry no registry URL found in name for scope @types
+159 silly mapToRegistry using default registry
+160 silly mapToRegistry registry https://registry.npmjs.org/
+161 silly mapToRegistry data Result {
+161 silly mapToRegistry   raw: '@types/request',
+161 silly mapToRegistry   scope: '@types',
+161 silly mapToRegistry   name: '@types/request',
+161 silly mapToRegistry   rawSpec: '',
+161 silly mapToRegistry   spec: 'latest',
+161 silly mapToRegistry   type: 'tag' }
+162 silly mapToRegistry uri https://registry.npmjs.org/@types%2frequest
+163 silly fetchNamedPackageData @types/through2
+164 silly mapToRegistry name @types/through2
+165 silly mapToRegistry scope (from package name) @types
+166 verbose mapToRegistry no registry URL found in name for scope @types
+167 silly mapToRegistry using default registry
+168 silly mapToRegistry registry https://registry.npmjs.org/
+169 silly mapToRegistry data Result {
+169 silly mapToRegistry   raw: '@types/through2',
+169 silly mapToRegistry   scope: '@types',
+169 silly mapToRegistry   name: '@types/through2',
+169 silly mapToRegistry   rawSpec: '',
+169 silly mapToRegistry   spec: 'latest',
+169 silly mapToRegistry   type: 'tag' }
+170 silly mapToRegistry uri https://registry.npmjs.org/@types%2fthrough2
+171 silly fetchNamedPackageData @types/wiredep
+172 silly mapToRegistry name @types/wiredep
+173 silly mapToRegistry scope (from package name) @types
+174 verbose mapToRegistry no registry URL found in name for scope @types
+175 silly mapToRegistry using default registry
+176 silly mapToRegistry registry https://registry.npmjs.org/
+177 silly mapToRegistry data Result {
+177 silly mapToRegistry   raw: '@types/wiredep',
+177 silly mapToRegistry   scope: '@types',
+177 silly mapToRegistry   name: '@types/wiredep',
+177 silly mapToRegistry   rawSpec: '',
+177 silly mapToRegistry   spec: 'latest',
+177 silly mapToRegistry   type: 'tag' }
+178 silly mapToRegistry uri https://registry.npmjs.org/@types%2fwiredep
+179 silly fetchNamedPackageData @types/xml2js
+180 silly mapToRegistry name @types/xml2js
+181 silly mapToRegistry scope (from package name) @types
+182 verbose mapToRegistry no registry URL found in name for scope @types
+183 silly mapToRegistry using default registry
+184 silly mapToRegistry registry https://registry.npmjs.org/
+185 silly mapToRegistry data Result {
+185 silly mapToRegistry   raw: '@types/xml2js',
+185 silly mapToRegistry   scope: '@types',
+185 silly mapToRegistry   name: '@types/xml2js',
+185 silly mapToRegistry   rawSpec: '',
+185 silly mapToRegistry   spec: 'latest',
+185 silly mapToRegistry   type: 'tag' }
+186 silly mapToRegistry uri https://registry.npmjs.org/@types%2fxml2js
+187 silly fetchNamedPackageData @types/yargs
+188 silly mapToRegistry name @types/yargs
+189 silly mapToRegistry scope (from package name) @types
+190 verbose mapToRegistry no registry URL found in name for scope @types
+191 silly mapToRegistry using default registry
+192 silly mapToRegistry registry https://registry.npmjs.org/
+193 silly mapToRegistry data Result {
+193 silly mapToRegistry   raw: '@types/yargs',
+193 silly mapToRegistry   scope: '@types',
+193 silly mapToRegistry   name: '@types/yargs',
+193 silly mapToRegistry   rawSpec: '',
+193 silly mapToRegistry   spec: 'latest',
+193 silly mapToRegistry   type: 'tag' }
+194 silly mapToRegistry uri https://registry.npmjs.org/@types%2fyargs
+195 verbose request uri https://registry.npmjs.org/@types%2fangular
+196 verbose request no auth needed
+197 info attempt registry request try #1 at 9:27:06 AM
+198 verbose request using bearer token for auth
+199 verbose request id 8eb280c7cc702ea4
+200 verbose etag "6WU23S0J9UA003P1I0KW8SZL7"
+201 http request GET https://registry.npmjs.org/@types%2fangular
+202 verbose request uri https://registry.npmjs.org/@types%2fbrowser-sync
+203 verbose request no auth needed
+204 info attempt registry request try #1 at 9:27:06 AM
+205 verbose request using bearer token for auth
+206 verbose etag "ENWXMUOFMBG1P7RUZJZO2JG6C"
+207 http request GET https://registry.npmjs.org/@types%2fbrowser-sync
+208 verbose request uri https://registry.npmjs.org/@types%2fangular-material
+209 verbose request no auth needed
+210 info attempt registry request try #1 at 9:27:06 AM
+211 verbose request using bearer token for auth
+212 verbose etag "CVR9YB4E071NX5DQ67WFQ69VL"
+213 http request GET https://registry.npmjs.org/@types%2fangular-material
+214 verbose request uri https://registry.npmjs.org/@types%2fdel
+215 verbose request no auth needed
+216 info attempt registry request try #1 at 9:27:06 AM
+217 verbose request using bearer token for auth
+218 verbose etag "80M5XBD194YCNKYPBU0C41O53"
+219 http request GET https://registry.npmjs.org/@types%2fdel
+220 verbose request uri https://registry.npmjs.org/@types%2fexpress
+221 verbose request no auth needed
+222 info attempt registry request try #1 at 9:27:06 AM
+223 verbose request using bearer token for auth
+224 verbose etag "8GGI7Y88NWMORRKXRHOK6LOQE"
+225 http request GET https://registry.npmjs.org/@types%2fexpress
+226 verbose request uri https://registry.npmjs.org/@types%2fgulp
+227 verbose request no auth needed
+228 info attempt registry request try #1 at 9:27:06 AM
+229 verbose request using bearer token for auth
+230 verbose etag "6HVT4Q0K2198BHO20H8NABPXV"
+231 http request GET https://registry.npmjs.org/@types%2fgulp
+232 verbose request uri https://registry.npmjs.org/@types%2fgulp-autoprefixer
+233 verbose request no auth needed
+234 info attempt registry request try #1 at 9:27:06 AM
+235 verbose request using bearer token for auth
+236 verbose etag "5WNG5R6V7O8O5IQQGM0TEMOEJ"
+237 http request GET https://registry.npmjs.org/@types%2fgulp-autoprefixer
+238 verbose request uri https://registry.npmjs.org/@types%2fgulp-if
+239 verbose request no auth needed
+240 info attempt registry request try #1 at 9:27:06 AM
+241 verbose request using bearer token for auth
+242 verbose etag "6ZMSUG8IV87IFTXHJS7FO0VCI"
+243 http request GET https://registry.npmjs.org/@types%2fgulp-if
+244 verbose request uri https://registry.npmjs.org/@types%2fgulp-load-plugins
+245 verbose request no auth needed
+246 info attempt registry request try #1 at 9:27:06 AM
+247 verbose request using bearer token for auth
+248 verbose etag "8WT2NLKP7OQVTFC8R1CFCUUO6"
+249 http request GET https://registry.npmjs.org/@types%2fgulp-load-plugins
+250 verbose request uri https://registry.npmjs.org/@types%2fgulp-nodemon
+251 verbose request no auth needed
+252 info attempt registry request try #1 at 9:27:06 AM
+253 verbose request using bearer token for auth
+254 verbose etag "5IYA2ZAU93JVFWZ45ME5JQ7M5"
+255 http request GET https://registry.npmjs.org/@types%2fgulp-nodemon
+256 verbose request uri https://registry.npmjs.org/@types%2fgulp-rev
+257 verbose request no auth needed
+258 info attempt registry request try #1 at 9:27:06 AM
+259 verbose request using bearer token for auth
+260 verbose etag "D4UK5I32E1H5A84DDLD0830"
+261 http request GET https://registry.npmjs.org/@types%2fgulp-rev
+262 verbose request uri https://registry.npmjs.org/@types%2fgulp-replace
+263 verbose request no auth needed
+264 info attempt registry request try #1 at 9:27:06 AM
+265 verbose request using bearer token for auth
+266 verbose etag "AMWDPUSX6ZELCRZH27WWMB6J0"
+267 http request GET https://registry.npmjs.org/@types%2fgulp-replace
+268 verbose request uri https://registry.npmjs.org/@types%2fgulp-rev-replace
+269 verbose request no auth needed
+270 info attempt registry request try #1 at 9:27:06 AM
+271 verbose request using bearer token for auth
+272 verbose etag "10965E2I356JJLGLXVUPVI5WS"
+273 http request GET https://registry.npmjs.org/@types%2fgulp-rev-replace
+274 verbose request uri https://registry.npmjs.org/@types%2fgulp-sass
+275 verbose request no auth needed
+276 info attempt registry request try #1 at 9:27:06 AM
+277 verbose request using bearer token for auth
+278 verbose etag "80Q7XDW6M1AWF7QCXXADJKW2O"
+279 http request GET https://registry.npmjs.org/@types%2fgulp-sass
+280 verbose request uri https://registry.npmjs.org/@types%2fkarma
+281 verbose request no auth needed
+282 info attempt registry request try #1 at 9:27:06 AM
+283 verbose request using bearer token for auth
+284 verbose etag "DCLWR7Y5B79ESQQATEFS3MA9A"
+285 http request GET https://registry.npmjs.org/@types%2fkarma
+286 verbose request uri https://registry.npmjs.org/@types%2frequest
+287 verbose request no auth needed
+288 info attempt registry request try #1 at 9:27:06 AM
+289 verbose request using bearer token for auth
+290 verbose etag "D4C7JTMIAR9NXAOUOAB6AQQDQ"
+291 http request GET https://registry.npmjs.org/@types%2frequest
+292 verbose request uri https://registry.npmjs.org/@types%2fgulp-sourcemaps
+293 verbose request no auth needed
+294 info attempt registry request try #1 at 9:27:06 AM
+295 verbose request using bearer token for auth
+296 verbose etag "4OR86NQAMMXYVU4OTDB76MTBE"
+297 http request GET https://registry.npmjs.org/@types%2fgulp-sourcemaps
+298 verbose request uri https://registry.npmjs.org/@types%2fnode
+299 verbose request no auth needed
+300 info attempt registry request try #1 at 9:27:06 AM
+301 verbose request using bearer token for auth
+302 verbose etag "EXIP0I4QLAJIIZEFAGF5UG46A"
+303 http request GET https://registry.npmjs.org/@types%2fnode
+304 verbose request uri https://registry.npmjs.org/@types%2fthrough2
+305 verbose request no auth needed
+306 info attempt registry request try #1 at 9:27:06 AM
+307 verbose request using bearer token for auth
+308 verbose etag "75TQK8H5VU9XCANMMYCKMSRY9"
+309 http request GET https://registry.npmjs.org/@types%2fthrough2
+310 verbose request uri https://registry.npmjs.org/@types%2fwiredep
+311 verbose request no auth needed
+312 info attempt registry request try #1 at 9:27:06 AM
+313 verbose request using bearer token for auth
+314 verbose etag "3Y870C7XOLJ8SJS37QL9Q3OS4"
+315 http request GET https://registry.npmjs.org/@types%2fwiredep
+316 verbose request uri https://registry.npmjs.org/@types%2fxml2js
+317 verbose request no auth needed
+318 info attempt registry request try #1 at 9:27:06 AM
+319 verbose request using bearer token for auth
+320 verbose etag "CH3WFQ27BVEZS12PPIYOBRMAV"
+321 http request GET https://registry.npmjs.org/@types%2fxml2js
+322 verbose request uri https://registry.npmjs.org/@types%2fyargs
+323 verbose request no auth needed
+324 info attempt registry request try #1 at 9:27:06 AM
+325 verbose request using bearer token for auth
+326 verbose etag "DCBJU3SJ4J0X7V1X2S3827R7Z"
+327 http request GET https://registry.npmjs.org/@types%2fyargs
+328 http 304 https://registry.npmjs.org/@types%2fgulp-if
+329 verbose headers { 'cache-control': 'max-age=0',
+329 verbose headers   'accept-ranges': 'bytes',
+329 verbose headers   date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+329 verbose headers   via: '1.1 varnish',
+329 verbose headers   connection: 'keep-alive',
+329 verbose headers   'x-served-by': 'cache-sjc3636-SJC',
+329 verbose headers   'x-cache': 'MISS',
+329 verbose headers   'x-cache-hits': '0',
+329 verbose headers   'x-timer': 'S1468510031.127612,VS0,VE42',
+329 verbose headers   vary: 'Accept-Encoding' }
+330 silly get cb [ 304,
+330 silly get   { 'cache-control': 'max-age=0',
+330 silly get     'accept-ranges': 'bytes',
+330 silly get     date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+330 silly get     via: '1.1 varnish',
+330 silly get     connection: 'keep-alive',
+330 silly get     'x-served-by': 'cache-sjc3636-SJC',
+330 silly get     'x-cache': 'MISS',
+330 silly get     'x-cache-hits': '0',
+330 silly get     'x-timer': 'S1468510031.127612,VS0,VE42',
+330 silly get     vary: 'Accept-Encoding' } ]
+331 verbose etag https://registry.npmjs.org/@types%2fgulp-if from cache
+332 verbose get saving @types/gulp-if to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fgulp-if/.cache.json
+333 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+334 http 304 https://registry.npmjs.org/@types%2fgulp-nodemon
+335 verbose headers { 'cache-control': 'max-age=0',
+335 verbose headers   'accept-ranges': 'bytes',
+335 verbose headers   date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+335 verbose headers   via: '1.1 varnish',
+335 verbose headers   connection: 'keep-alive',
+335 verbose headers   'x-served-by': 'cache-sjc3622-SJC',
+335 verbose headers   'x-cache': 'MISS',
+335 verbose headers   'x-cache-hits': '0',
+335 verbose headers   'x-timer': 'S1468510031.126553,VS0,VE50',
+335 verbose headers   vary: 'Accept-Encoding' }
+336 silly get cb [ 304,
+336 silly get   { 'cache-control': 'max-age=0',
+336 silly get     'accept-ranges': 'bytes',
+336 silly get     date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+336 silly get     via: '1.1 varnish',
+336 silly get     connection: 'keep-alive',
+336 silly get     'x-served-by': 'cache-sjc3622-SJC',
+336 silly get     'x-cache': 'MISS',
+336 silly get     'x-cache-hits': '0',
+336 silly get     'x-timer': 'S1468510031.126553,VS0,VE50',
+336 silly get     vary: 'Accept-Encoding' } ]
+337 verbose etag https://registry.npmjs.org/@types%2fgulp-nodemon from cache
+338 verbose get saving @types/gulp-nodemon to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fgulp-nodemon/.cache.json
+339 verbose correctMkdir /Users/jsskeen/.npm correctMkdir already in flight; waiting
+340 silly resolveWithNewModule @types/gulp-nodemon@0.0.28 checking installable status
+341 silly cache add args [ '@types/gulp-nodemon@latest', null ]
+342 verbose cache add spec @types/gulp-nodemon@latest
+343 http 304 https://registry.npmjs.org/@types%2fkarma
+344 verbose headers { 'cache-control': 'max-age=0',
+344 verbose headers   'accept-ranges': 'bytes',
+344 verbose headers   date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+344 verbose headers   via: '1.1 varnish',
+344 verbose headers   connection: 'keep-alive',
+344 verbose headers   'x-served-by': 'cache-sjc3132-SJC',
+344 verbose headers   'x-cache': 'MISS',
+344 verbose headers   'x-cache-hits': '0',
+344 verbose headers   'x-timer': 'S1468510031.131178,VS0,VE53',
+344 verbose headers   vary: 'Accept-Encoding' }
+345 silly get cb [ 304,
+345 silly get   { 'cache-control': 'max-age=0',
+345 silly get     'accept-ranges': 'bytes',
+345 silly get     date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+345 silly get     via: '1.1 varnish',
+345 silly get     connection: 'keep-alive',
+345 silly get     'x-served-by': 'cache-sjc3132-SJC',
+345 silly get     'x-cache': 'MISS',
+345 silly get     'x-cache-hits': '0',
+345 silly get     'x-timer': 'S1468510031.131178,VS0,VE53',
+345 silly get     vary: 'Accept-Encoding' } ]
+346 verbose etag https://registry.npmjs.org/@types%2fkarma from cache
+347 verbose get saving @types/karma to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fkarma/.cache.json
+348 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+349 silly resolveWithNewModule @types/gulp-if@0.0.29 checking installable status
+350 silly cache add args [ '@types/gulp-if@latest', null ]
+351 verbose cache add spec @types/gulp-if@latest
+352 silly cache add parsed spec Result {
+352 silly cache add   raw: '@types/gulp-nodemon@latest',
+352 silly cache add   scope: '@types',
+352 silly cache add   name: '@types/gulp-nodemon',
+352 silly cache add   rawSpec: 'latest',
+352 silly cache add   spec: 'latest',
+352 silly cache add   type: 'tag' }
+353 silly addNamed @types/gulp-nodemon@latest
+354 verbose addNamed "latest" is being treated as a dist-tag for @types/gulp-nodemon
+355 info addNameTag [ '@types/gulp-nodemon', 'latest' ]
+356 silly mapToRegistry name @types/gulp-nodemon
+357 silly mapToRegistry scope (from package name) @types
+358 verbose mapToRegistry no registry URL found in name for scope @types
+359 silly mapToRegistry using default registry
+360 silly mapToRegistry registry https://registry.npmjs.org/
+361 silly mapToRegistry data Result {
+361 silly mapToRegistry   raw: '@types/gulp-nodemon',
+361 silly mapToRegistry   scope: '@types',
+361 silly mapToRegistry   name: '@types/gulp-nodemon',
+361 silly mapToRegistry   rawSpec: '',
+361 silly mapToRegistry   spec: 'latest',
+361 silly mapToRegistry   type: 'tag' }
+362 silly mapToRegistry uri https://registry.npmjs.org/@types%2fgulp-nodemon
+363 verbose addNameTag registry:https://registry.npmjs.org/@types%2fgulp-nodemon not in flight; fetching
+364 http 304 https://registry.npmjs.org/@types%2fgulp-rev-replace
+365 verbose headers { 'cache-control': 'max-age=0',
+365 verbose headers   'accept-ranges': 'bytes',
+365 verbose headers   date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+365 verbose headers   via: '1.1 varnish',
+365 verbose headers   connection: 'keep-alive',
+365 verbose headers   'x-served-by': 'cache-sjc3632-SJC',
+365 verbose headers   'x-cache': 'MISS',
+365 verbose headers   'x-cache-hits': '0',
+365 verbose headers   'x-timer': 'S1468510031.130160,VS0,VE54',
+365 verbose headers   vary: 'Accept-Encoding' }
+366 silly get cb [ 304,
+366 silly get   { 'cache-control': 'max-age=0',
+366 silly get     'accept-ranges': 'bytes',
+366 silly get     date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+366 silly get     via: '1.1 varnish',
+366 silly get     connection: 'keep-alive',
+366 silly get     'x-served-by': 'cache-sjc3632-SJC',
+366 silly get     'x-cache': 'MISS',
+366 silly get     'x-cache-hits': '0',
+366 silly get     'x-timer': 'S1468510031.130160,VS0,VE54',
+366 silly get     vary: 'Accept-Encoding' } ]
+367 verbose etag https://registry.npmjs.org/@types%2fgulp-rev-replace from cache
+368 verbose get saving @types/gulp-rev-replace to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fgulp-rev-replace/.cache.json
+369 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+370 silly cache add parsed spec Result {
+370 silly cache add   raw: '@types/gulp-if@latest',
+370 silly cache add   scope: '@types',
+370 silly cache add   name: '@types/gulp-if',
+370 silly cache add   rawSpec: 'latest',
+370 silly cache add   spec: 'latest',
+370 silly cache add   type: 'tag' }
+371 silly addNamed @types/gulp-if@latest
+372 verbose addNamed "latest" is being treated as a dist-tag for @types/gulp-if
+373 info addNameTag [ '@types/gulp-if', 'latest' ]
+374 silly mapToRegistry name @types/gulp-if
+375 silly mapToRegistry scope (from package name) @types
+376 verbose mapToRegistry no registry URL found in name for scope @types
+377 silly mapToRegistry using default registry
+378 silly mapToRegistry registry https://registry.npmjs.org/
+379 silly mapToRegistry data Result {
+379 silly mapToRegistry   raw: '@types/gulp-if',
+379 silly mapToRegistry   scope: '@types',
+379 silly mapToRegistry   name: '@types/gulp-if',
+379 silly mapToRegistry   rawSpec: '',
+379 silly mapToRegistry   spec: 'latest',
+379 silly mapToRegistry   type: 'tag' }
+380 silly mapToRegistry uri https://registry.npmjs.org/@types%2fgulp-if
+381 verbose addNameTag registry:https://registry.npmjs.org/@types%2fgulp-if not in flight; fetching
+382 http 304 https://registry.npmjs.org/@types%2fyargs
+383 verbose headers { 'cache-control': 'max-age=0',
+383 verbose headers   'accept-ranges': 'bytes',
+383 verbose headers   date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+383 verbose headers   via: '1.1 varnish',
+383 verbose headers   connection: 'keep-alive',
+383 verbose headers   'x-served-by': 'cache-sjc3122-SJC',
+383 verbose headers   'x-cache': 'MISS',
+383 verbose headers   'x-cache-hits': '0',
+383 verbose headers   'x-timer': 'S1468510031.137157,VS0,VE53',
+383 verbose headers   vary: 'Accept-Encoding' }
+384 silly get cb [ 304,
+384 silly get   { 'cache-control': 'max-age=0',
+384 silly get     'accept-ranges': 'bytes',
+384 silly get     date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+384 silly get     via: '1.1 varnish',
+384 silly get     connection: 'keep-alive',
+384 silly get     'x-served-by': 'cache-sjc3122-SJC',
+384 silly get     'x-cache': 'MISS',
+384 silly get     'x-cache-hits': '0',
+384 silly get     'x-timer': 'S1468510031.137157,VS0,VE53',
+384 silly get     vary: 'Accept-Encoding' } ]
+385 verbose etag https://registry.npmjs.org/@types%2fyargs from cache
+386 verbose get saving @types/yargs to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fyargs/.cache.json
+387 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+388 verbose get https://registry.npmjs.org/@types%2fgulp-nodemon not expired, no request
+389 silly addNameTag next cb for @types/gulp-nodemon with tag latest
+390 silly addNamed @types/gulp-nodemon@0.0.28
+391 verbose addNamed "0.0.28" is a plain semver version for @types/gulp-nodemon
+392 verbose get https://registry.npmjs.org/@types%2fgulp-if not expired, no request
+393 silly addNameTag next cb for @types/gulp-if with tag latest
+394 silly addNamed @types/gulp-if@0.0.29
+395 verbose addNamed "0.0.29" is a plain semver version for @types/gulp-if
+396 silly resolveWithNewModule @types/karma@0.13.28 checking installable status
+397 silly cache add args [ '@types/karma@latest', null ]
+398 verbose cache add spec @types/karma@latest
+399 silly cache afterAdd @types/gulp-if@0.0.29
+400 verbose afterAdd /Users/jsskeen/.npm/@types/gulp-if/0.0.29/package/package.json not in flight; writing
+401 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+402 silly cache afterAdd @types/gulp-nodemon@0.0.28
+403 verbose afterAdd /Users/jsskeen/.npm/@types/gulp-nodemon/0.0.28/package/package.json not in flight; writing
+404 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+405 silly cache add parsed spec Result {
+405 silly cache add   raw: '@types/karma@latest',
+405 silly cache add   scope: '@types',
+405 silly cache add   name: '@types/karma',
+405 silly cache add   rawSpec: 'latest',
+405 silly cache add   spec: 'latest',
+405 silly cache add   type: 'tag' }
+406 silly addNamed @types/karma@latest
+407 verbose addNamed "latest" is being treated as a dist-tag for @types/karma
+408 info addNameTag [ '@types/karma', 'latest' ]
+409 silly mapToRegistry name @types/karma
+410 silly mapToRegistry scope (from package name) @types
+411 verbose mapToRegistry no registry URL found in name for scope @types
+412 silly mapToRegistry using default registry
+413 silly mapToRegistry registry https://registry.npmjs.org/
+414 silly mapToRegistry data Result {
+414 silly mapToRegistry   raw: '@types/karma',
+414 silly mapToRegistry   scope: '@types',
+414 silly mapToRegistry   name: '@types/karma',
+414 silly mapToRegistry   rawSpec: '',
+414 silly mapToRegistry   spec: 'latest',
+414 silly mapToRegistry   type: 'tag' }
+415 silly mapToRegistry uri https://registry.npmjs.org/@types%2fkarma
+416 verbose addNameTag registry:https://registry.npmjs.org/@types%2fkarma not in flight; fetching
+417 silly resolveWithNewModule @types/yargs@0.0.26-alpha checking installable status
+418 silly cache add args [ '@types/yargs@latest', null ]
+419 verbose cache add spec @types/yargs@latest
+420 silly resolveWithNewModule @types/gulp-rev-replace@0.2.28 checking installable status
+421 silly cache add args [ '@types/gulp-rev-replace@latest', null ]
+422 verbose cache add spec @types/gulp-rev-replace@latest
+423 silly cache add parsed spec Result {
+423 silly cache add   raw: '@types/yargs@latest',
+423 silly cache add   scope: '@types',
+423 silly cache add   name: '@types/yargs',
+423 silly cache add   rawSpec: 'latest',
+423 silly cache add   spec: 'latest',
+423 silly cache add   type: 'tag' }
+424 silly addNamed @types/yargs@latest
+425 verbose addNamed "latest" is being treated as a dist-tag for @types/yargs
+426 info addNameTag [ '@types/yargs', 'latest' ]
+427 silly mapToRegistry name @types/yargs
+428 silly mapToRegistry scope (from package name) @types
+429 verbose mapToRegistry no registry URL found in name for scope @types
+430 silly mapToRegistry using default registry
+431 silly mapToRegistry registry https://registry.npmjs.org/
+432 silly mapToRegistry data Result {
+432 silly mapToRegistry   raw: '@types/yargs',
+432 silly mapToRegistry   scope: '@types',
+432 silly mapToRegistry   name: '@types/yargs',
+432 silly mapToRegistry   rawSpec: '',
+432 silly mapToRegistry   spec: 'latest',
+432 silly mapToRegistry   type: 'tag' }
+433 silly mapToRegistry uri https://registry.npmjs.org/@types%2fyargs
+434 verbose addNameTag registry:https://registry.npmjs.org/@types%2fyargs not in flight; fetching
+435 silly cache add parsed spec Result {
+435 silly cache add   raw: '@types/gulp-rev-replace@latest',
+435 silly cache add   scope: '@types',
+435 silly cache add   name: '@types/gulp-rev-replace',
+435 silly cache add   rawSpec: 'latest',
+435 silly cache add   spec: 'latest',
+435 silly cache add   type: 'tag' }
+436 silly addNamed @types/gulp-rev-replace@latest
+437 verbose addNamed "latest" is being treated as a dist-tag for @types/gulp-rev-replace
+438 info addNameTag [ '@types/gulp-rev-replace', 'latest' ]
+439 silly mapToRegistry name @types/gulp-rev-replace
+440 silly mapToRegistry scope (from package name) @types
+441 verbose mapToRegistry no registry URL found in name for scope @types
+442 silly mapToRegistry using default registry
+443 silly mapToRegistry registry https://registry.npmjs.org/
+444 silly mapToRegistry data Result {
+444 silly mapToRegistry   raw: '@types/gulp-rev-replace',
+444 silly mapToRegistry   scope: '@types',
+444 silly mapToRegistry   name: '@types/gulp-rev-replace',
+444 silly mapToRegistry   rawSpec: '',
+444 silly mapToRegistry   spec: 'latest',
+444 silly mapToRegistry   type: 'tag' }
+445 silly mapToRegistry uri https://registry.npmjs.org/@types%2fgulp-rev-replace
+446 verbose addNameTag registry:https://registry.npmjs.org/@types%2fgulp-rev-replace not in flight; fetching
+447 verbose get https://registry.npmjs.org/@types%2fkarma not expired, no request
+448 silly addNameTag next cb for @types/karma with tag latest
+449 silly addNamed @types/karma@0.13.28
+450 verbose addNamed "0.13.28" is a plain semver version for @types/karma
+451 verbose afterAdd /Users/jsskeen/.npm/@types/gulp-if/0.0.29/package/package.json written
+452 verbose get https://registry.npmjs.org/@types%2fyargs not expired, no request
+453 silly addNameTag next cb for @types/yargs with tag latest
+454 silly addNamed @types/yargs@0.0.26-alpha
+455 verbose addNamed "0.0.26-alpha" is a plain semver version for @types/yargs
+456 verbose get https://registry.npmjs.org/@types%2fgulp-rev-replace not expired, no request
+457 silly addNameTag next cb for @types/gulp-rev-replace with tag latest
+458 silly addNamed @types/gulp-rev-replace@0.2.28
+459 verbose addNamed "0.2.28" is a plain semver version for @types/gulp-rev-replace
+460 verbose afterAdd /Users/jsskeen/.npm/@types/gulp-nodemon/0.0.28/package/package.json written
+461 silly cache afterAdd @types/karma@0.13.28
+462 verbose afterAdd /Users/jsskeen/.npm/@types/karma/0.13.28/package/package.json not in flight; writing
+463 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+464 silly cache afterAdd @types/yargs@0.0.26-alpha
+465 verbose afterAdd /Users/jsskeen/.npm/@types/yargs/0.0.26-alpha/package/package.json not in flight; writing
+466 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+467 silly cache afterAdd @types/gulp-rev-replace@0.2.28
+468 verbose afterAdd /Users/jsskeen/.npm/@types/gulp-rev-replace/0.2.28/package/package.json not in flight; writing
+469 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+470 verbose afterAdd /Users/jsskeen/.npm/@types/karma/0.13.28/package/package.json written
+471 verbose afterAdd /Users/jsskeen/.npm/@types/gulp-rev-replace/0.2.28/package/package.json written
+472 verbose afterAdd /Users/jsskeen/.npm/@types/yargs/0.0.26-alpha/package/package.json written
+473 http 304 https://registry.npmjs.org/@types%2fgulp-load-plugins
+474 verbose headers { 'cache-control': 'max-age=0',
+474 verbose headers   'accept-ranges': 'bytes',
+474 verbose headers   date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+474 verbose headers   via: '1.1 varnish',
+474 verbose headers   connection: 'keep-alive',
+474 verbose headers   'x-served-by': 'cache-sjc3123-SJC',
+474 verbose headers   'x-cache': 'MISS',
+474 verbose headers   'x-cache-hits': '0',
+474 verbose headers   'x-timer': 'S1468510031.126893,VS0,VE132',
+474 verbose headers   vary: 'Accept-Encoding' }
+475 silly get cb [ 304,
+475 silly get   { 'cache-control': 'max-age=0',
+475 silly get     'accept-ranges': 'bytes',
+475 silly get     date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+475 silly get     via: '1.1 varnish',
+475 silly get     connection: 'keep-alive',
+475 silly get     'x-served-by': 'cache-sjc3123-SJC',
+475 silly get     'x-cache': 'MISS',
+475 silly get     'x-cache-hits': '0',
+475 silly get     'x-timer': 'S1468510031.126893,VS0,VE132',
+475 silly get     vary: 'Accept-Encoding' } ]
+476 verbose etag https://registry.npmjs.org/@types%2fgulp-load-plugins from cache
+477 verbose get saving @types/gulp-load-plugins to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fgulp-load-plugins/.cache.json
+478 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+479 silly resolveWithNewModule @types/gulp-load-plugins@0.0.27 checking installable status
+480 silly cache add args [ '@types/gulp-load-plugins@latest', null ]
+481 verbose cache add spec @types/gulp-load-plugins@latest
+482 silly cache add parsed spec Result {
+482 silly cache add   raw: '@types/gulp-load-plugins@latest',
+482 silly cache add   scope: '@types',
+482 silly cache add   name: '@types/gulp-load-plugins',
+482 silly cache add   rawSpec: 'latest',
+482 silly cache add   spec: 'latest',
+482 silly cache add   type: 'tag' }
+483 silly addNamed @types/gulp-load-plugins@latest
+484 verbose addNamed "latest" is being treated as a dist-tag for @types/gulp-load-plugins
+485 info addNameTag [ '@types/gulp-load-plugins', 'latest' ]
+486 silly mapToRegistry name @types/gulp-load-plugins
+487 silly mapToRegistry scope (from package name) @types
+488 verbose mapToRegistry no registry URL found in name for scope @types
+489 silly mapToRegistry using default registry
+490 silly mapToRegistry registry https://registry.npmjs.org/
+491 silly mapToRegistry data Result {
+491 silly mapToRegistry   raw: '@types/gulp-load-plugins',
+491 silly mapToRegistry   scope: '@types',
+491 silly mapToRegistry   name: '@types/gulp-load-plugins',
+491 silly mapToRegistry   rawSpec: '',
+491 silly mapToRegistry   spec: 'latest',
+491 silly mapToRegistry   type: 'tag' }
+492 silly mapToRegistry uri https://registry.npmjs.org/@types%2fgulp-load-plugins
+493 verbose addNameTag registry:https://registry.npmjs.org/@types%2fgulp-load-plugins not in flight; fetching
+494 verbose get https://registry.npmjs.org/@types%2fgulp-load-plugins not expired, no request
+495 silly addNameTag next cb for @types/gulp-load-plugins with tag latest
+496 silly addNamed @types/gulp-load-plugins@0.0.27
+497 verbose addNamed "0.0.27" is a plain semver version for @types/gulp-load-plugins
+498 silly cache afterAdd @types/gulp-load-plugins@0.0.27
+499 verbose afterAdd /Users/jsskeen/.npm/@types/gulp-load-plugins/0.0.27/package/package.json not in flight; writing
+500 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+501 verbose afterAdd /Users/jsskeen/.npm/@types/gulp-load-plugins/0.0.27/package/package.json written
+502 http 304 https://registry.npmjs.org/@types%2fgulp-autoprefixer
+503 verbose headers { 'cache-control': 'max-age=0',
+503 verbose headers   'accept-ranges': 'bytes',
+503 verbose headers   date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+503 verbose headers   via: '1.1 varnish',
+503 verbose headers   connection: 'keep-alive',
+503 verbose headers   'x-served-by': 'cache-sjc3147-SJC',
+503 verbose headers   'x-cache': 'MISS',
+503 verbose headers   'x-cache-hits': '0',
+503 verbose headers   'x-timer': 'S1468510031.123204,VS0,VE150',
+503 verbose headers   vary: 'Accept-Encoding' }
+504 silly get cb [ 304,
+504 silly get   { 'cache-control': 'max-age=0',
+504 silly get     'accept-ranges': 'bytes',
+504 silly get     date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+504 silly get     via: '1.1 varnish',
+504 silly get     connection: 'keep-alive',
+504 silly get     'x-served-by': 'cache-sjc3147-SJC',
+504 silly get     'x-cache': 'MISS',
+504 silly get     'x-cache-hits': '0',
+504 silly get     'x-timer': 'S1468510031.123204,VS0,VE150',
+504 silly get     vary: 'Accept-Encoding' } ]
+505 verbose etag https://registry.npmjs.org/@types%2fgulp-autoprefixer from cache
+506 verbose get saving @types/gulp-autoprefixer to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fgulp-autoprefixer/.cache.json
+507 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+508 silly resolveWithNewModule @types/gulp-autoprefixer@0.0.28 checking installable status
+509 silly cache add args [ '@types/gulp-autoprefixer@latest', null ]
+510 verbose cache add spec @types/gulp-autoprefixer@latest
+511 silly cache add parsed spec Result {
+511 silly cache add   raw: '@types/gulp-autoprefixer@latest',
+511 silly cache add   scope: '@types',
+511 silly cache add   name: '@types/gulp-autoprefixer',
+511 silly cache add   rawSpec: 'latest',
+511 silly cache add   spec: 'latest',
+511 silly cache add   type: 'tag' }
+512 silly addNamed @types/gulp-autoprefixer@latest
+513 verbose addNamed "latest" is being treated as a dist-tag for @types/gulp-autoprefixer
+514 info addNameTag [ '@types/gulp-autoprefixer', 'latest' ]
+515 silly mapToRegistry name @types/gulp-autoprefixer
+516 silly mapToRegistry scope (from package name) @types
+517 verbose mapToRegistry no registry URL found in name for scope @types
+518 silly mapToRegistry using default registry
+519 silly mapToRegistry registry https://registry.npmjs.org/
+520 silly mapToRegistry data Result {
+520 silly mapToRegistry   raw: '@types/gulp-autoprefixer',
+520 silly mapToRegistry   scope: '@types',
+520 silly mapToRegistry   name: '@types/gulp-autoprefixer',
+520 silly mapToRegistry   rawSpec: '',
+520 silly mapToRegistry   spec: 'latest',
+520 silly mapToRegistry   type: 'tag' }
+521 silly mapToRegistry uri https://registry.npmjs.org/@types%2fgulp-autoprefixer
+522 verbose addNameTag registry:https://registry.npmjs.org/@types%2fgulp-autoprefixer not in flight; fetching
+523 verbose get https://registry.npmjs.org/@types%2fgulp-autoprefixer not expired, no request
+524 silly addNameTag next cb for @types/gulp-autoprefixer with tag latest
+525 silly addNamed @types/gulp-autoprefixer@0.0.28
+526 verbose addNamed "0.0.28" is a plain semver version for @types/gulp-autoprefixer
+527 silly cache afterAdd @types/gulp-autoprefixer@0.0.28
+528 verbose afterAdd /Users/jsskeen/.npm/@types/gulp-autoprefixer/0.0.28/package/package.json not in flight; writing
+529 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+530 http 304 https://registry.npmjs.org/@types%2fthrough2
+531 verbose headers { 'cache-control': 'max-age=0',
+531 verbose headers   'accept-ranges': 'bytes',
+531 verbose headers   date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+531 verbose headers   via: '1.1 varnish',
+531 verbose headers   connection: 'keep-alive',
+531 verbose headers   'x-served-by': 'cache-sjc3120-SJC',
+531 verbose headers   'x-cache': 'MISS',
+531 verbose headers   'x-cache-hits': '0',
+531 verbose headers   'x-timer': 'S1468510031.138809,VS0,VE142',
+531 verbose headers   vary: 'Accept-Encoding' }
+532 silly get cb [ 304,
+532 silly get   { 'cache-control': 'max-age=0',
+532 silly get     'accept-ranges': 'bytes',
+532 silly get     date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+532 silly get     via: '1.1 varnish',
+532 silly get     connection: 'keep-alive',
+532 silly get     'x-served-by': 'cache-sjc3120-SJC',
+532 silly get     'x-cache': 'MISS',
+532 silly get     'x-cache-hits': '0',
+532 silly get     'x-timer': 'S1468510031.138809,VS0,VE142',
+532 silly get     vary: 'Accept-Encoding' } ]
+533 verbose etag https://registry.npmjs.org/@types%2fthrough2 from cache
+534 verbose get saving @types/through2 to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fthrough2/.cache.json
+535 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+536 verbose afterAdd /Users/jsskeen/.npm/@types/gulp-autoprefixer/0.0.28/package/package.json written
+537 silly resolveWithNewModule @types/through2@0.0.26-alpha checking installable status
+538 silly cache add args [ '@types/through2@latest', null ]
+539 verbose cache add spec @types/through2@latest
+540 silly cache add parsed spec Result {
+540 silly cache add   raw: '@types/through2@latest',
+540 silly cache add   scope: '@types',
+540 silly cache add   name: '@types/through2',
+540 silly cache add   rawSpec: 'latest',
+540 silly cache add   spec: 'latest',
+540 silly cache add   type: 'tag' }
+541 silly addNamed @types/through2@latest
+542 verbose addNamed "latest" is being treated as a dist-tag for @types/through2
+543 info addNameTag [ '@types/through2', 'latest' ]
+544 silly mapToRegistry name @types/through2
+545 silly mapToRegistry scope (from package name) @types
+546 verbose mapToRegistry no registry URL found in name for scope @types
+547 silly mapToRegistry using default registry
+548 silly mapToRegistry registry https://registry.npmjs.org/
+549 silly mapToRegistry data Result {
+549 silly mapToRegistry   raw: '@types/through2',
+549 silly mapToRegistry   scope: '@types',
+549 silly mapToRegistry   name: '@types/through2',
+549 silly mapToRegistry   rawSpec: '',
+549 silly mapToRegistry   spec: 'latest',
+549 silly mapToRegistry   type: 'tag' }
+550 silly mapToRegistry uri https://registry.npmjs.org/@types%2fthrough2
+551 verbose addNameTag registry:https://registry.npmjs.org/@types%2fthrough2 not in flight; fetching
+552 http 304 https://registry.npmjs.org/@types%2frequest
+553 verbose headers { 'cache-control': 'max-age=0',
+553 verbose headers   'accept-ranges': 'bytes',
+553 verbose headers   date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+553 verbose headers   via: '1.1 varnish',
+553 verbose headers   connection: 'keep-alive',
+553 verbose headers   'x-served-by': 'cache-sjc3647-SJC',
+553 verbose headers   'x-cache': 'MISS',
+553 verbose headers   'x-cache-hits': '0',
+553 verbose headers   'x-timer': 'S1468510031.134219,VS0,VE150',
+553 verbose headers   vary: 'Accept-Encoding' }
+554 silly get cb [ 304,
+554 silly get   { 'cache-control': 'max-age=0',
+554 silly get     'accept-ranges': 'bytes',
+554 silly get     date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+554 silly get     via: '1.1 varnish',
+554 silly get     connection: 'keep-alive',
+554 silly get     'x-served-by': 'cache-sjc3647-SJC',
+554 silly get     'x-cache': 'MISS',
+554 silly get     'x-cache-hits': '0',
+554 silly get     'x-timer': 'S1468510031.134219,VS0,VE150',
+554 silly get     vary: 'Accept-Encoding' } ]
+555 verbose etag https://registry.npmjs.org/@types%2frequest from cache
+556 verbose get saving @types/request to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252frequest/.cache.json
+557 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+558 verbose get https://registry.npmjs.org/@types%2fthrough2 not expired, no request
+559 silly addNameTag next cb for @types/through2 with tag latest
+560 silly addNamed @types/through2@0.0.26-alpha
+561 verbose addNamed "0.0.26-alpha" is a plain semver version for @types/through2
+562 silly cache afterAdd @types/through2@0.0.26-alpha
+563 verbose afterAdd /Users/jsskeen/.npm/@types/through2/0.0.26-alpha/package/package.json not in flight; writing
+564 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+565 silly resolveWithNewModule @types/request@0.0.26-alpha checking installable status
+566 silly cache add args [ '@types/request@latest', null ]
+567 verbose cache add spec @types/request@latest
+568 silly cache add parsed spec Result {
+568 silly cache add   raw: '@types/request@latest',
+568 silly cache add   scope: '@types',
+568 silly cache add   name: '@types/request',
+568 silly cache add   rawSpec: 'latest',
+568 silly cache add   spec: 'latest',
+568 silly cache add   type: 'tag' }
+569 silly addNamed @types/request@latest
+570 verbose addNamed "latest" is being treated as a dist-tag for @types/request
+571 info addNameTag [ '@types/request', 'latest' ]
+572 silly mapToRegistry name @types/request
+573 silly mapToRegistry scope (from package name) @types
+574 verbose mapToRegistry no registry URL found in name for scope @types
+575 silly mapToRegistry using default registry
+576 silly mapToRegistry registry https://registry.npmjs.org/
+577 silly mapToRegistry data Result {
+577 silly mapToRegistry   raw: '@types/request',
+577 silly mapToRegistry   scope: '@types',
+577 silly mapToRegistry   name: '@types/request',
+577 silly mapToRegistry   rawSpec: '',
+577 silly mapToRegistry   spec: 'latest',
+577 silly mapToRegistry   type: 'tag' }
+578 silly mapToRegistry uri https://registry.npmjs.org/@types%2frequest
+579 verbose addNameTag registry:https://registry.npmjs.org/@types%2frequest not in flight; fetching
+580 verbose get https://registry.npmjs.org/@types%2frequest not expired, no request
+581 silly addNameTag next cb for @types/request with tag latest
+582 silly addNamed @types/request@0.0.26-alpha
+583 verbose addNamed "0.0.26-alpha" is a plain semver version for @types/request
+584 verbose afterAdd /Users/jsskeen/.npm/@types/through2/0.0.26-alpha/package/package.json written
+585 http 304 https://registry.npmjs.org/@types%2fgulp-sourcemaps
+586 verbose headers { 'cache-control': 'max-age=0',
+586 verbose headers   'accept-ranges': 'bytes',
+586 verbose headers   date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+586 verbose headers   via: '1.1 varnish',
+586 verbose headers   connection: 'keep-alive',
+586 verbose headers   'x-served-by': 'cache-sjc3120-SJC',
+586 verbose headers   'x-cache': 'MISS',
+586 verbose headers   'x-cache-hits': '0',
+586 verbose headers   'x-timer': 'S1468510031.133322,VS0,VE159',
+586 verbose headers   vary: 'Accept-Encoding' }
+587 silly get cb [ 304,
+587 silly get   { 'cache-control': 'max-age=0',
+587 silly get     'accept-ranges': 'bytes',
+587 silly get     date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+587 silly get     via: '1.1 varnish',
+587 silly get     connection: 'keep-alive',
+587 silly get     'x-served-by': 'cache-sjc3120-SJC',
+587 silly get     'x-cache': 'MISS',
+587 silly get     'x-cache-hits': '0',
+587 silly get     'x-timer': 'S1468510031.133322,VS0,VE159',
+587 silly get     vary: 'Accept-Encoding' } ]
+588 verbose etag https://registry.npmjs.org/@types%2fgulp-sourcemaps from cache
+589 verbose get saving @types/gulp-sourcemaps to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fgulp-sourcemaps/.cache.json
+590 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+591 silly cache afterAdd @types/request@0.0.26-alpha
+592 verbose afterAdd /Users/jsskeen/.npm/@types/request/0.0.26-alpha/package/package.json not in flight; writing
+593 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+594 http 304 https://registry.npmjs.org/@types%2fgulp
+595 verbose headers { 'cache-control': 'max-age=0',
+595 verbose headers   'accept-ranges': 'bytes',
+595 verbose headers   date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+595 verbose headers   via: '1.1 varnish',
+595 verbose headers   connection: 'keep-alive',
+595 verbose headers   'x-served-by': 'cache-sjc3624-SJC',
+595 verbose headers   'x-cache': 'MISS',
+595 verbose headers   'x-cache-hits': '0',
+595 verbose headers   'x-timer': 'S1468510031.121172,VS0,VE174',
+595 verbose headers   vary: 'Accept-Encoding' }
+596 silly get cb [ 304,
+596 silly get   { 'cache-control': 'max-age=0',
+596 silly get     'accept-ranges': 'bytes',
+596 silly get     date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+596 silly get     via: '1.1 varnish',
+596 silly get     connection: 'keep-alive',
+596 silly get     'x-served-by': 'cache-sjc3624-SJC',
+596 silly get     'x-cache': 'MISS',
+596 silly get     'x-cache-hits': '0',
+596 silly get     'x-timer': 'S1468510031.121172,VS0,VE174',
+596 silly get     vary: 'Accept-Encoding' } ]
+597 verbose etag https://registry.npmjs.org/@types%2fgulp from cache
+598 verbose get saving @types/gulp to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fgulp/.cache.json
+599 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+600 silly resolveWithNewModule @types/gulp-sourcemaps@0.0.28 checking installable status
+601 silly cache add args [ '@types/gulp-sourcemaps@latest', null ]
+602 verbose cache add spec @types/gulp-sourcemaps@latest
+603 verbose afterAdd /Users/jsskeen/.npm/@types/request/0.0.26-alpha/package/package.json written
+604 silly cache add parsed spec Result {
+604 silly cache add   raw: '@types/gulp-sourcemaps@latest',
+604 silly cache add   scope: '@types',
+604 silly cache add   name: '@types/gulp-sourcemaps',
+604 silly cache add   rawSpec: 'latest',
+604 silly cache add   spec: 'latest',
+604 silly cache add   type: 'tag' }
+605 silly addNamed @types/gulp-sourcemaps@latest
+606 verbose addNamed "latest" is being treated as a dist-tag for @types/gulp-sourcemaps
+607 info addNameTag [ '@types/gulp-sourcemaps', 'latest' ]
+608 silly mapToRegistry name @types/gulp-sourcemaps
+609 silly mapToRegistry scope (from package name) @types
+610 verbose mapToRegistry no registry URL found in name for scope @types
+611 silly mapToRegistry using default registry
+612 silly mapToRegistry registry https://registry.npmjs.org/
+613 silly mapToRegistry data Result {
+613 silly mapToRegistry   raw: '@types/gulp-sourcemaps',
+613 silly mapToRegistry   scope: '@types',
+613 silly mapToRegistry   name: '@types/gulp-sourcemaps',
+613 silly mapToRegistry   rawSpec: '',
+613 silly mapToRegistry   spec: 'latest',
+613 silly mapToRegistry   type: 'tag' }
+614 silly mapToRegistry uri https://registry.npmjs.org/@types%2fgulp-sourcemaps
+615 verbose addNameTag registry:https://registry.npmjs.org/@types%2fgulp-sourcemaps not in flight; fetching
+616 verbose get https://registry.npmjs.org/@types%2fgulp-sourcemaps not expired, no request
+617 silly addNameTag next cb for @types/gulp-sourcemaps with tag latest
+618 silly addNamed @types/gulp-sourcemaps@0.0.28
+619 verbose addNamed "0.0.28" is a plain semver version for @types/gulp-sourcemaps
+620 silly resolveWithNewModule @types/gulp@3.8.28 checking installable status
+621 silly cache add args [ '@types/gulp@latest', null ]
+622 verbose cache add spec @types/gulp@latest
+623 silly cache add parsed spec Result {
+623 silly cache add   raw: '@types/gulp@latest',
+623 silly cache add   scope: '@types',
+623 silly cache add   name: '@types/gulp',
+623 silly cache add   rawSpec: 'latest',
+623 silly cache add   spec: 'latest',
+623 silly cache add   type: 'tag' }
+624 silly addNamed @types/gulp@latest
+625 verbose addNamed "latest" is being treated as a dist-tag for @types/gulp
+626 info addNameTag [ '@types/gulp', 'latest' ]
+627 silly mapToRegistry name @types/gulp
+628 silly mapToRegistry scope (from package name) @types
+629 verbose mapToRegistry no registry URL found in name for scope @types
+630 silly mapToRegistry using default registry
+631 silly mapToRegistry registry https://registry.npmjs.org/
+632 silly mapToRegistry data Result {
+632 silly mapToRegistry   raw: '@types/gulp',
+632 silly mapToRegistry   scope: '@types',
+632 silly mapToRegistry   name: '@types/gulp',
+632 silly mapToRegistry   rawSpec: '',
+632 silly mapToRegistry   spec: 'latest',
+632 silly mapToRegistry   type: 'tag' }
+633 silly mapToRegistry uri https://registry.npmjs.org/@types%2fgulp
+634 verbose addNameTag registry:https://registry.npmjs.org/@types%2fgulp not in flight; fetching
+635 silly cache afterAdd @types/gulp-sourcemaps@0.0.28
+636 verbose afterAdd /Users/jsskeen/.npm/@types/gulp-sourcemaps/0.0.28/package/package.json not in flight; writing
+637 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+638 verbose get https://registry.npmjs.org/@types%2fgulp not expired, no request
+639 silly addNameTag next cb for @types/gulp with tag latest
+640 silly addNamed @types/gulp@3.8.28
+641 verbose addNamed "3.8.28" is a plain semver version for @types/gulp
+642 verbose afterAdd /Users/jsskeen/.npm/@types/gulp-sourcemaps/0.0.28/package/package.json written
+643 silly cache afterAdd @types/gulp@3.8.28
+644 verbose afterAdd /Users/jsskeen/.npm/@types/gulp/3.8.28/package/package.json not in flight; writing
+645 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+646 verbose afterAdd /Users/jsskeen/.npm/@types/gulp/3.8.28/package/package.json written
+647 http 304 https://registry.npmjs.org/@types%2fexpress
+648 verbose headers { 'cache-control': 'max-age=0',
+648 verbose headers   'accept-ranges': 'bytes',
+648 verbose headers   date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+648 verbose headers   via: '1.1 varnish',
+648 verbose headers   connection: 'keep-alive',
+648 verbose headers   'x-served-by': 'cache-sjc3126-SJC',
+648 verbose headers   'x-cache': 'MISS',
+648 verbose headers   'x-cache-hits': '0',
+648 verbose headers   'x-timer': 'S1468510031.121555,VS0,VE297',
+648 verbose headers   vary: 'Accept-Encoding' }
+649 silly get cb [ 304,
+649 silly get   { 'cache-control': 'max-age=0',
+649 silly get     'accept-ranges': 'bytes',
+649 silly get     date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+649 silly get     via: '1.1 varnish',
+649 silly get     connection: 'keep-alive',
+649 silly get     'x-served-by': 'cache-sjc3126-SJC',
+649 silly get     'x-cache': 'MISS',
+649 silly get     'x-cache-hits': '0',
+649 silly get     'x-timer': 'S1468510031.121555,VS0,VE297',
+649 silly get     vary: 'Accept-Encoding' } ]
+650 verbose etag https://registry.npmjs.org/@types%2fexpress from cache
+651 verbose get saving @types/express to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fexpress/.cache.json
+652 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+653 silly resolveWithNewModule @types/express@4.0.29 checking installable status
+654 silly cache add args [ '@types/express@latest', null ]
+655 verbose cache add spec @types/express@latest
+656 silly cache add parsed spec Result {
+656 silly cache add   raw: '@types/express@latest',
+656 silly cache add   scope: '@types',
+656 silly cache add   name: '@types/express',
+656 silly cache add   rawSpec: 'latest',
+656 silly cache add   spec: 'latest',
+656 silly cache add   type: 'tag' }
+657 silly addNamed @types/express@latest
+658 verbose addNamed "latest" is being treated as a dist-tag for @types/express
+659 info addNameTag [ '@types/express', 'latest' ]
+660 silly mapToRegistry name @types/express
+661 silly mapToRegistry scope (from package name) @types
+662 verbose mapToRegistry no registry URL found in name for scope @types
+663 silly mapToRegistry using default registry
+664 silly mapToRegistry registry https://registry.npmjs.org/
+665 silly mapToRegistry data Result {
+665 silly mapToRegistry   raw: '@types/express',
+665 silly mapToRegistry   scope: '@types',
+665 silly mapToRegistry   name: '@types/express',
+665 silly mapToRegistry   rawSpec: '',
+665 silly mapToRegistry   spec: 'latest',
+665 silly mapToRegistry   type: 'tag' }
+666 silly mapToRegistry uri https://registry.npmjs.org/@types%2fexpress
+667 verbose addNameTag registry:https://registry.npmjs.org/@types%2fexpress not in flight; fetching
+668 verbose get https://registry.npmjs.org/@types%2fexpress not expired, no request
+669 silly addNameTag next cb for @types/express with tag latest
+670 silly addNamed @types/express@4.0.29
+671 verbose addNamed "4.0.29" is a plain semver version for @types/express
+672 silly cache afterAdd @types/express@4.0.29
+673 verbose afterAdd /Users/jsskeen/.npm/@types/express/4.0.29/package/package.json not in flight; writing
+674 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+675 verbose afterAdd /Users/jsskeen/.npm/@types/express/4.0.29/package/package.json written
+676 http 304 https://registry.npmjs.org/@types%2fangular-material
+677 verbose headers { 'cache-control': 'max-age=0',
+677 verbose headers   'accept-ranges': 'bytes',
+677 verbose headers   date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+677 verbose headers   via: '1.1 varnish',
+677 verbose headers   connection: 'keep-alive',
+677 verbose headers   'x-served-by': 'cache-sjc3649-SJC',
+677 verbose headers   'x-cache': 'MISS',
+677 verbose headers   'x-cache-hits': '0',
+677 verbose headers   'x-timer': 'S1468510031.120588,VS0,VE385',
+677 verbose headers   vary: 'Accept-Encoding' }
+678 silly get cb [ 304,
+678 silly get   { 'cache-control': 'max-age=0',
+678 silly get     'accept-ranges': 'bytes',
+678 silly get     date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+678 silly get     via: '1.1 varnish',
+678 silly get     connection: 'keep-alive',
+678 silly get     'x-served-by': 'cache-sjc3649-SJC',
+678 silly get     'x-cache': 'MISS',
+678 silly get     'x-cache-hits': '0',
+678 silly get     'x-timer': 'S1468510031.120588,VS0,VE385',
+678 silly get     vary: 'Accept-Encoding' } ]
+679 verbose etag https://registry.npmjs.org/@types%2fangular-material from cache
+680 verbose get saving @types/angular-material to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fangular-material/.cache.json
+681 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+682 silly resolveWithNewModule @types/angular-material@1.0.30 checking installable status
+683 silly cache add args [ '@types/angular-material@latest', null ]
+684 verbose cache add spec @types/angular-material@latest
+685 silly cache add parsed spec Result {
+685 silly cache add   raw: '@types/angular-material@latest',
+685 silly cache add   scope: '@types',
+685 silly cache add   name: '@types/angular-material',
+685 silly cache add   rawSpec: 'latest',
+685 silly cache add   spec: 'latest',
+685 silly cache add   type: 'tag' }
+686 silly addNamed @types/angular-material@latest
+687 verbose addNamed "latest" is being treated as a dist-tag for @types/angular-material
+688 info addNameTag [ '@types/angular-material', 'latest' ]
+689 silly mapToRegistry name @types/angular-material
+690 silly mapToRegistry scope (from package name) @types
+691 verbose mapToRegistry no registry URL found in name for scope @types
+692 silly mapToRegistry using default registry
+693 silly mapToRegistry registry https://registry.npmjs.org/
+694 silly mapToRegistry data Result {
+694 silly mapToRegistry   raw: '@types/angular-material',
+694 silly mapToRegistry   scope: '@types',
+694 silly mapToRegistry   name: '@types/angular-material',
+694 silly mapToRegistry   rawSpec: '',
+694 silly mapToRegistry   spec: 'latest',
+694 silly mapToRegistry   type: 'tag' }
+695 silly mapToRegistry uri https://registry.npmjs.org/@types%2fangular-material
+696 verbose addNameTag registry:https://registry.npmjs.org/@types%2fangular-material not in flight; fetching
+697 http 304 https://registry.npmjs.org/@types%2fdel
+698 verbose headers { 'cache-control': 'max-age=0',
+698 verbose headers   'accept-ranges': 'bytes',
+698 verbose headers   date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+698 verbose headers   via: '1.1 varnish',
+698 verbose headers   connection: 'keep-alive',
+698 verbose headers   'x-served-by': 'cache-sjc3121-SJC',
+698 verbose headers   'x-cache': 'MISS',
+698 verbose headers   'x-cache-hits': '0',
+698 verbose headers   'x-timer': 'S1468510031.122501,VS0,VE387',
+698 verbose headers   vary: 'Accept-Encoding' }
+699 silly get cb [ 304,
+699 silly get   { 'cache-control': 'max-age=0',
+699 silly get     'accept-ranges': 'bytes',
+699 silly get     date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+699 silly get     via: '1.1 varnish',
+699 silly get     connection: 'keep-alive',
+699 silly get     'x-served-by': 'cache-sjc3121-SJC',
+699 silly get     'x-cache': 'MISS',
+699 silly get     'x-cache-hits': '0',
+699 silly get     'x-timer': 'S1468510031.122501,VS0,VE387',
+699 silly get     vary: 'Accept-Encoding' } ]
+700 verbose etag https://registry.npmjs.org/@types%2fdel from cache
+701 verbose get saving @types/del to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fdel/.cache.json
+702 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+703 verbose get https://registry.npmjs.org/@types%2fangular-material not expired, no request
+704 silly addNameTag next cb for @types/angular-material with tag latest
+705 silly addNamed @types/angular-material@1.0.30
+706 verbose addNamed "1.0.30" is a plain semver version for @types/angular-material
+707 silly cache afterAdd @types/angular-material@1.0.30
+708 verbose afterAdd /Users/jsskeen/.npm/@types/angular-material/1.0.30/package/package.json not in flight; writing
+709 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+710 silly resolveWithNewModule @types/del@2.2.30 checking installable status
+711 silly cache add args [ '@types/del@latest', null ]
+712 verbose cache add spec @types/del@latest
+713 silly cache add parsed spec Result {
+713 silly cache add   raw: '@types/del@latest',
+713 silly cache add   scope: '@types',
+713 silly cache add   name: '@types/del',
+713 silly cache add   rawSpec: 'latest',
+713 silly cache add   spec: 'latest',
+713 silly cache add   type: 'tag' }
+714 silly addNamed @types/del@latest
+715 verbose addNamed "latest" is being treated as a dist-tag for @types/del
+716 info addNameTag [ '@types/del', 'latest' ]
+717 silly mapToRegistry name @types/del
+718 silly mapToRegistry scope (from package name) @types
+719 verbose mapToRegistry no registry URL found in name for scope @types
+720 silly mapToRegistry using default registry
+721 silly mapToRegistry registry https://registry.npmjs.org/
+722 silly mapToRegistry data Result {
+722 silly mapToRegistry   raw: '@types/del',
+722 silly mapToRegistry   scope: '@types',
+722 silly mapToRegistry   name: '@types/del',
+722 silly mapToRegistry   rawSpec: '',
+722 silly mapToRegistry   spec: 'latest',
+722 silly mapToRegistry   type: 'tag' }
+723 silly mapToRegistry uri https://registry.npmjs.org/@types%2fdel
+724 verbose addNameTag registry:https://registry.npmjs.org/@types%2fdel not in flight; fetching
+725 verbose get https://registry.npmjs.org/@types%2fdel not expired, no request
+726 silly addNameTag next cb for @types/del with tag latest
+727 silly addNamed @types/del@2.2.30
+728 verbose addNamed "2.2.30" is a plain semver version for @types/del
+729 verbose afterAdd /Users/jsskeen/.npm/@types/angular-material/1.0.30/package/package.json written
+730 silly cache afterAdd @types/del@2.2.30
+731 verbose afterAdd /Users/jsskeen/.npm/@types/del/2.2.30/package/package.json not in flight; writing
+732 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+733 http 304 https://registry.npmjs.org/@types%2fbrowser-sync
+734 verbose headers { 'cache-control': 'max-age=0',
+734 verbose headers   'accept-ranges': 'bytes',
+734 verbose headers   date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+734 verbose headers   via: '1.1 varnish',
+734 verbose headers   connection: 'keep-alive',
+734 verbose headers   'x-served-by': 'cache-sjc3136-SJC',
+734 verbose headers   'x-cache': 'MISS',
+734 verbose headers   'x-cache-hits': '0',
+734 verbose headers   'x-timer': 'S1468510031.121055,VS0,VE399',
+734 verbose headers   vary: 'Accept-Encoding' }
+735 silly get cb [ 304,
+735 silly get   { 'cache-control': 'max-age=0',
+735 silly get     'accept-ranges': 'bytes',
+735 silly get     date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+735 silly get     via: '1.1 varnish',
+735 silly get     connection: 'keep-alive',
+735 silly get     'x-served-by': 'cache-sjc3136-SJC',
+735 silly get     'x-cache': 'MISS',
+735 silly get     'x-cache-hits': '0',
+735 silly get     'x-timer': 'S1468510031.121055,VS0,VE399',
+735 silly get     vary: 'Accept-Encoding' } ]
+736 verbose etag https://registry.npmjs.org/@types%2fbrowser-sync from cache
+737 verbose get saving @types/browser-sync to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fbrowser-sync/.cache.json
+738 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+739 http 304 https://registry.npmjs.org/@types%2fangular
+740 verbose headers { 'cache-control': 'max-age=0',
+740 verbose headers   'accept-ranges': 'bytes',
+740 verbose headers   date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+740 verbose headers   via: '1.1 varnish',
+740 verbose headers   connection: 'keep-alive',
+740 verbose headers   'x-served-by': 'cache-sjc3630-SJC',
+740 verbose headers   'x-cache': 'MISS',
+740 verbose headers   'x-cache-hits': '0',
+740 verbose headers   'x-timer': 'S1468510031.120414,VS0,VE406',
+740 verbose headers   vary: 'Accept-Encoding' }
+741 silly get cb [ 304,
+741 silly get   { 'cache-control': 'max-age=0',
+741 silly get     'accept-ranges': 'bytes',
+741 silly get     date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+741 silly get     via: '1.1 varnish',
+741 silly get     connection: 'keep-alive',
+741 silly get     'x-served-by': 'cache-sjc3630-SJC',
+741 silly get     'x-cache': 'MISS',
+741 silly get     'x-cache-hits': '0',
+741 silly get     'x-timer': 'S1468510031.120414,VS0,VE406',
+741 silly get     vary: 'Accept-Encoding' } ]
+742 verbose etag https://registry.npmjs.org/@types%2fangular from cache
+743 verbose get saving @types/angular to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fangular/.cache.json
+744 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+745 verbose afterAdd /Users/jsskeen/.npm/@types/del/2.2.30/package/package.json written
+746 silly resolveWithNewModule @types/browser-sync@0.0.29 checking installable status
+747 silly cache add args [ '@types/browser-sync@latest', null ]
+748 verbose cache add spec @types/browser-sync@latest
+749 silly cache add parsed spec Result {
+749 silly cache add   raw: '@types/browser-sync@latest',
+749 silly cache add   scope: '@types',
+749 silly cache add   name: '@types/browser-sync',
+749 silly cache add   rawSpec: 'latest',
+749 silly cache add   spec: 'latest',
+749 silly cache add   type: 'tag' }
+750 silly addNamed @types/browser-sync@latest
+751 verbose addNamed "latest" is being treated as a dist-tag for @types/browser-sync
+752 info addNameTag [ '@types/browser-sync', 'latest' ]
+753 silly mapToRegistry name @types/browser-sync
+754 silly mapToRegistry scope (from package name) @types
+755 verbose mapToRegistry no registry URL found in name for scope @types
+756 silly mapToRegistry using default registry
+757 silly mapToRegistry registry https://registry.npmjs.org/
+758 silly mapToRegistry data Result {
+758 silly mapToRegistry   raw: '@types/browser-sync',
+758 silly mapToRegistry   scope: '@types',
+758 silly mapToRegistry   name: '@types/browser-sync',
+758 silly mapToRegistry   rawSpec: '',
+758 silly mapToRegistry   spec: 'latest',
+758 silly mapToRegistry   type: 'tag' }
+759 silly mapToRegistry uri https://registry.npmjs.org/@types%2fbrowser-sync
+760 verbose addNameTag registry:https://registry.npmjs.org/@types%2fbrowser-sync not in flight; fetching
+761 silly resolveWithNewModule @types/angular@1.5.7 checking installable status
+762 silly cache add args [ '@types/angular@latest', null ]
+763 verbose cache add spec @types/angular@latest
+764 silly cache add parsed spec Result {
+764 silly cache add   raw: '@types/angular@latest',
+764 silly cache add   scope: '@types',
+764 silly cache add   name: '@types/angular',
+764 silly cache add   rawSpec: 'latest',
+764 silly cache add   spec: 'latest',
+764 silly cache add   type: 'tag' }
+765 silly addNamed @types/angular@latest
+766 verbose addNamed "latest" is being treated as a dist-tag for @types/angular
+767 info addNameTag [ '@types/angular', 'latest' ]
+768 silly mapToRegistry name @types/angular
+769 silly mapToRegistry scope (from package name) @types
+770 verbose mapToRegistry no registry URL found in name for scope @types
+771 silly mapToRegistry using default registry
+772 silly mapToRegistry registry https://registry.npmjs.org/
+773 silly mapToRegistry data Result {
+773 silly mapToRegistry   raw: '@types/angular',
+773 silly mapToRegistry   scope: '@types',
+773 silly mapToRegistry   name: '@types/angular',
+773 silly mapToRegistry   rawSpec: '',
+773 silly mapToRegistry   spec: 'latest',
+773 silly mapToRegistry   type: 'tag' }
+774 silly mapToRegistry uri https://registry.npmjs.org/@types%2fangular
+775 verbose addNameTag registry:https://registry.npmjs.org/@types%2fangular not in flight; fetching
+776 verbose get https://registry.npmjs.org/@types%2fbrowser-sync not expired, no request
+777 silly addNameTag next cb for @types/browser-sync with tag latest
+778 silly addNamed @types/browser-sync@0.0.29
+779 verbose addNamed "0.0.29" is a plain semver version for @types/browser-sync
+780 verbose get https://registry.npmjs.org/@types%2fangular not expired, no request
+781 silly addNameTag next cb for @types/angular with tag latest
+782 silly addNamed @types/angular@1.5.7
+783 verbose addNamed "1.5.7" is a plain semver version for @types/angular
+784 silly cache afterAdd @types/angular@1.5.7
+785 verbose afterAdd /Users/jsskeen/.npm/@types/angular/1.5.7/package/package.json not in flight; writing
+786 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+787 silly cache afterAdd @types/browser-sync@0.0.29
+788 verbose afterAdd /Users/jsskeen/.npm/@types/browser-sync/0.0.29/package/package.json not in flight; writing
+789 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+790 verbose afterAdd /Users/jsskeen/.npm/@types/angular/1.5.7/package/package.json written
+791 verbose afterAdd /Users/jsskeen/.npm/@types/browser-sync/0.0.29/package/package.json written
+792 http 304 https://registry.npmjs.org/@types%2fgulp-replace
+793 verbose headers { 'cache-control': 'max-age=0',
+793 verbose headers   'accept-ranges': 'bytes',
+793 verbose headers   date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+793 verbose headers   via: '1.1 varnish',
+793 verbose headers   connection: 'keep-alive',
+793 verbose headers   'x-served-by': 'cache-sjc3631-SJC',
+793 verbose headers   'x-cache': 'MISS',
+793 verbose headers   'x-cache-hits': '0',
+793 verbose headers   'x-timer': 'S1468510031.124742,VS0,VE572',
+793 verbose headers   vary: 'Accept-Encoding' }
+794 silly get cb [ 304,
+794 silly get   { 'cache-control': 'max-age=0',
+794 silly get     'accept-ranges': 'bytes',
+794 silly get     date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+794 silly get     via: '1.1 varnish',
+794 silly get     connection: 'keep-alive',
+794 silly get     'x-served-by': 'cache-sjc3631-SJC',
+794 silly get     'x-cache': 'MISS',
+794 silly get     'x-cache-hits': '0',
+794 silly get     'x-timer': 'S1468510031.124742,VS0,VE572',
+794 silly get     vary: 'Accept-Encoding' } ]
+795 verbose etag https://registry.npmjs.org/@types%2fgulp-replace from cache
+796 verbose get saving @types/gulp-replace to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fgulp-replace/.cache.json
+797 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+798 silly resolveWithNewModule @types/gulp-replace@0.0.28 checking installable status
+799 silly cache add args [ '@types/gulp-replace@latest', null ]
+800 verbose cache add spec @types/gulp-replace@latest
+801 silly cache add parsed spec Result {
+801 silly cache add   raw: '@types/gulp-replace@latest',
+801 silly cache add   scope: '@types',
+801 silly cache add   name: '@types/gulp-replace',
+801 silly cache add   rawSpec: 'latest',
+801 silly cache add   spec: 'latest',
+801 silly cache add   type: 'tag' }
+802 silly addNamed @types/gulp-replace@latest
+803 verbose addNamed "latest" is being treated as a dist-tag for @types/gulp-replace
+804 info addNameTag [ '@types/gulp-replace', 'latest' ]
+805 silly mapToRegistry name @types/gulp-replace
+806 silly mapToRegistry scope (from package name) @types
+807 verbose mapToRegistry no registry URL found in name for scope @types
+808 silly mapToRegistry using default registry
+809 silly mapToRegistry registry https://registry.npmjs.org/
+810 silly mapToRegistry data Result {
+810 silly mapToRegistry   raw: '@types/gulp-replace',
+810 silly mapToRegistry   scope: '@types',
+810 silly mapToRegistry   name: '@types/gulp-replace',
+810 silly mapToRegistry   rawSpec: '',
+810 silly mapToRegistry   spec: 'latest',
+810 silly mapToRegistry   type: 'tag' }
+811 silly mapToRegistry uri https://registry.npmjs.org/@types%2fgulp-replace
+812 verbose addNameTag registry:https://registry.npmjs.org/@types%2fgulp-replace not in flight; fetching
+813 verbose get https://registry.npmjs.org/@types%2fgulp-replace not expired, no request
+814 silly addNameTag next cb for @types/gulp-replace with tag latest
+815 silly addNamed @types/gulp-replace@0.0.28
+816 verbose addNamed "0.0.28" is a plain semver version for @types/gulp-replace
+817 silly cache afterAdd @types/gulp-replace@0.0.28
+818 verbose afterAdd /Users/jsskeen/.npm/@types/gulp-replace/0.0.28/package/package.json not in flight; writing
+819 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+820 verbose afterAdd /Users/jsskeen/.npm/@types/gulp-replace/0.0.28/package/package.json written
+821 http 304 https://registry.npmjs.org/@types%2fnode
+822 verbose headers { 'cache-control': 'max-age=0',
+822 verbose headers   'accept-ranges': 'bytes',
+822 verbose headers   date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+822 verbose headers   via: '1.1 varnish',
+822 verbose headers   connection: 'keep-alive',
+822 verbose headers   'x-served-by': 'cache-sjc3621-SJC',
+822 verbose headers   'x-cache': 'MISS',
+822 verbose headers   'x-cache-hits': '0',
+822 verbose headers   'x-timer': 'S1468510031.140298,VS0,VE631',
+822 verbose headers   vary: 'Accept-Encoding' }
+823 silly get cb [ 304,
+823 silly get   { 'cache-control': 'max-age=0',
+823 silly get     'accept-ranges': 'bytes',
+823 silly get     date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+823 silly get     via: '1.1 varnish',
+823 silly get     connection: 'keep-alive',
+823 silly get     'x-served-by': 'cache-sjc3621-SJC',
+823 silly get     'x-cache': 'MISS',
+823 silly get     'x-cache-hits': '0',
+823 silly get     'x-timer': 'S1468510031.140298,VS0,VE631',
+823 silly get     vary: 'Accept-Encoding' } ]
+824 verbose etag https://registry.npmjs.org/@types%2fnode from cache
+825 verbose get saving @types/node to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fnode/.cache.json
+826 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+827 http 304 https://registry.npmjs.org/@types%2fgulp-sass
+828 verbose headers { 'cache-control': 'max-age=0',
+828 verbose headers   'accept-ranges': 'bytes',
+828 verbose headers   date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+828 verbose headers   via: '1.1 varnish',
+828 verbose headers   connection: 'keep-alive',
+828 verbose headers   'x-served-by': 'cache-sjc3646-SJC',
+828 verbose headers   'x-cache': 'MISS',
+828 verbose headers   'x-cache-hits': '0',
+828 verbose headers   'x-timer': 'S1468510031.132812,VS0,VE639',
+828 verbose headers   vary: 'Accept-Encoding' }
+829 silly get cb [ 304,
+829 silly get   { 'cache-control': 'max-age=0',
+829 silly get     'accept-ranges': 'bytes',
+829 silly get     date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+829 silly get     via: '1.1 varnish',
+829 silly get     connection: 'keep-alive',
+829 silly get     'x-served-by': 'cache-sjc3646-SJC',
+829 silly get     'x-cache': 'MISS',
+829 silly get     'x-cache-hits': '0',
+829 silly get     'x-timer': 'S1468510031.132812,VS0,VE639',
+829 silly get     vary: 'Accept-Encoding' } ]
+830 verbose etag https://registry.npmjs.org/@types%2fgulp-sass from cache
+831 verbose get saving @types/gulp-sass to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fgulp-sass/.cache.json
+832 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+833 http 304 https://registry.npmjs.org/@types%2fgulp-rev
+834 verbose headers { 'cache-control': 'max-age=0',
+834 verbose headers   'accept-ranges': 'bytes',
+834 verbose headers   date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+834 verbose headers   via: '1.1 varnish',
+834 verbose headers   connection: 'keep-alive',
+834 verbose headers   'x-served-by': 'cache-sjc3128-SJC',
+834 verbose headers   'x-cache': 'MISS',
+834 verbose headers   'x-cache-hits': '0',
+834 verbose headers   'x-timer': 'S1468510031.130076,VS0,VE644',
+834 verbose headers   vary: 'Accept-Encoding' }
+835 silly get cb [ 304,
+835 silly get   { 'cache-control': 'max-age=0',
+835 silly get     'accept-ranges': 'bytes',
+835 silly get     date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+835 silly get     via: '1.1 varnish',
+835 silly get     connection: 'keep-alive',
+835 silly get     'x-served-by': 'cache-sjc3128-SJC',
+835 silly get     'x-cache': 'MISS',
+835 silly get     'x-cache-hits': '0',
+835 silly get     'x-timer': 'S1468510031.130076,VS0,VE644',
+835 silly get     vary: 'Accept-Encoding' } ]
+836 verbose etag https://registry.npmjs.org/@types%2fgulp-rev from cache
+837 verbose get saving @types/gulp-rev to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fgulp-rev/.cache.json
+838 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+839 http 304 https://registry.npmjs.org/@types%2fwiredep
+840 verbose headers { 'cache-control': 'max-age=0',
+840 verbose headers   'accept-ranges': 'bytes',
+840 verbose headers   date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+840 verbose headers   via: '1.1 varnish',
+840 verbose headers   connection: 'keep-alive',
+840 verbose headers   'x-served-by': 'cache-sjc3629-SJC',
+840 verbose headers   'x-cache': 'MISS',
+840 verbose headers   'x-cache-hits': '0',
+840 verbose headers   'x-timer': 'S1468510031.137529,VS0,VE636',
+840 verbose headers   vary: 'Accept-Encoding' }
+841 silly get cb [ 304,
+841 silly get   { 'cache-control': 'max-age=0',
+841 silly get     'accept-ranges': 'bytes',
+841 silly get     date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+841 silly get     via: '1.1 varnish',
+841 silly get     connection: 'keep-alive',
+841 silly get     'x-served-by': 'cache-sjc3629-SJC',
+841 silly get     'x-cache': 'MISS',
+841 silly get     'x-cache-hits': '0',
+841 silly get     'x-timer': 'S1468510031.137529,VS0,VE636',
+841 silly get     vary: 'Accept-Encoding' } ]
+842 verbose etag https://registry.npmjs.org/@types%2fwiredep from cache
+843 verbose get saving @types/wiredep to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fwiredep/.cache.json
+844 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+845 silly resolveWithNewModule @types/gulp-rev@5.0.28 checking installable status
+846 silly cache add args [ '@types/gulp-rev@latest', null ]
+847 verbose cache add spec @types/gulp-rev@latest
+848 silly resolveWithNewModule @types/gulp-sass@0.0.28 checking installable status
+849 silly cache add args [ '@types/gulp-sass@latest', null ]
+850 verbose cache add spec @types/gulp-sass@latest
+851 silly resolveWithNewModule @types/node@4.0.28-alpha checking installable status
+852 silly cache add args [ '@types/node@latest', null ]
+853 verbose cache add spec @types/node@latest
+854 silly resolveWithNewModule @types/wiredep@3.0.26-alpha checking installable status
+855 silly cache add args [ '@types/wiredep@latest', null ]
+856 verbose cache add spec @types/wiredep@latest
+857 silly cache add parsed spec Result {
+857 silly cache add   raw: '@types/gulp-rev@latest',
+857 silly cache add   scope: '@types',
+857 silly cache add   name: '@types/gulp-rev',
+857 silly cache add   rawSpec: 'latest',
+857 silly cache add   spec: 'latest',
+857 silly cache add   type: 'tag' }
+858 silly addNamed @types/gulp-rev@latest
+859 verbose addNamed "latest" is being treated as a dist-tag for @types/gulp-rev
+860 info addNameTag [ '@types/gulp-rev', 'latest' ]
+861 silly mapToRegistry name @types/gulp-rev
+862 silly mapToRegistry scope (from package name) @types
+863 verbose mapToRegistry no registry URL found in name for scope @types
+864 silly mapToRegistry using default registry
+865 silly mapToRegistry registry https://registry.npmjs.org/
+866 silly mapToRegistry data Result {
+866 silly mapToRegistry   raw: '@types/gulp-rev',
+866 silly mapToRegistry   scope: '@types',
+866 silly mapToRegistry   name: '@types/gulp-rev',
+866 silly mapToRegistry   rawSpec: '',
+866 silly mapToRegistry   spec: 'latest',
+866 silly mapToRegistry   type: 'tag' }
+867 silly mapToRegistry uri https://registry.npmjs.org/@types%2fgulp-rev
+868 verbose addNameTag registry:https://registry.npmjs.org/@types%2fgulp-rev not in flight; fetching
+869 silly cache add parsed spec Result {
+869 silly cache add   raw: '@types/gulp-sass@latest',
+869 silly cache add   scope: '@types',
+869 silly cache add   name: '@types/gulp-sass',
+869 silly cache add   rawSpec: 'latest',
+869 silly cache add   spec: 'latest',
+869 silly cache add   type: 'tag' }
+870 silly addNamed @types/gulp-sass@latest
+871 verbose addNamed "latest" is being treated as a dist-tag for @types/gulp-sass
+872 info addNameTag [ '@types/gulp-sass', 'latest' ]
+873 silly mapToRegistry name @types/gulp-sass
+874 silly mapToRegistry scope (from package name) @types
+875 verbose mapToRegistry no registry URL found in name for scope @types
+876 silly mapToRegistry using default registry
+877 silly mapToRegistry registry https://registry.npmjs.org/
+878 silly mapToRegistry data Result {
+878 silly mapToRegistry   raw: '@types/gulp-sass',
+878 silly mapToRegistry   scope: '@types',
+878 silly mapToRegistry   name: '@types/gulp-sass',
+878 silly mapToRegistry   rawSpec: '',
+878 silly mapToRegistry   spec: 'latest',
+878 silly mapToRegistry   type: 'tag' }
+879 silly mapToRegistry uri https://registry.npmjs.org/@types%2fgulp-sass
+880 verbose addNameTag registry:https://registry.npmjs.org/@types%2fgulp-sass not in flight; fetching
+881 silly cache add parsed spec Result {
+881 silly cache add   raw: '@types/node@latest',
+881 silly cache add   scope: '@types',
+881 silly cache add   name: '@types/node',
+881 silly cache add   rawSpec: 'latest',
+881 silly cache add   spec: 'latest',
+881 silly cache add   type: 'tag' }
+882 silly addNamed @types/node@latest
+883 verbose addNamed "latest" is being treated as a dist-tag for @types/node
+884 info addNameTag [ '@types/node', 'latest' ]
+885 silly mapToRegistry name @types/node
+886 silly mapToRegistry scope (from package name) @types
+887 verbose mapToRegistry no registry URL found in name for scope @types
+888 silly mapToRegistry using default registry
+889 silly mapToRegistry registry https://registry.npmjs.org/
+890 silly mapToRegistry data Result {
+890 silly mapToRegistry   raw: '@types/node',
+890 silly mapToRegistry   scope: '@types',
+890 silly mapToRegistry   name: '@types/node',
+890 silly mapToRegistry   rawSpec: '',
+890 silly mapToRegistry   spec: 'latest',
+890 silly mapToRegistry   type: 'tag' }
+891 silly mapToRegistry uri https://registry.npmjs.org/@types%2fnode
+892 verbose addNameTag registry:https://registry.npmjs.org/@types%2fnode not in flight; fetching
+893 silly cache add parsed spec Result {
+893 silly cache add   raw: '@types/wiredep@latest',
+893 silly cache add   scope: '@types',
+893 silly cache add   name: '@types/wiredep',
+893 silly cache add   rawSpec: 'latest',
+893 silly cache add   spec: 'latest',
+893 silly cache add   type: 'tag' }
+894 silly addNamed @types/wiredep@latest
+895 verbose addNamed "latest" is being treated as a dist-tag for @types/wiredep
+896 info addNameTag [ '@types/wiredep', 'latest' ]
+897 silly mapToRegistry name @types/wiredep
+898 silly mapToRegistry scope (from package name) @types
+899 verbose mapToRegistry no registry URL found in name for scope @types
+900 silly mapToRegistry using default registry
+901 silly mapToRegistry registry https://registry.npmjs.org/
+902 silly mapToRegistry data Result {
+902 silly mapToRegistry   raw: '@types/wiredep',
+902 silly mapToRegistry   scope: '@types',
+902 silly mapToRegistry   name: '@types/wiredep',
+902 silly mapToRegistry   rawSpec: '',
+902 silly mapToRegistry   spec: 'latest',
+902 silly mapToRegistry   type: 'tag' }
+903 silly mapToRegistry uri https://registry.npmjs.org/@types%2fwiredep
+904 verbose addNameTag registry:https://registry.npmjs.org/@types%2fwiredep not in flight; fetching
+905 verbose get https://registry.npmjs.org/@types%2fgulp-rev not expired, no request
+906 silly addNameTag next cb for @types/gulp-rev with tag latest
+907 silly addNamed @types/gulp-rev@5.0.28
+908 verbose addNamed "5.0.28" is a plain semver version for @types/gulp-rev
+909 verbose get https://registry.npmjs.org/@types%2fgulp-sass not expired, no request
+910 silly addNameTag next cb for @types/gulp-sass with tag latest
+911 silly addNamed @types/gulp-sass@0.0.28
+912 verbose addNamed "0.0.28" is a plain semver version for @types/gulp-sass
+913 verbose get https://registry.npmjs.org/@types%2fnode not expired, no request
+914 silly addNameTag next cb for @types/node with tag latest
+915 silly addNamed @types/node@4.0.28-alpha
+916 verbose addNamed "4.0.28-alpha" is a plain semver version for @types/node
+917 verbose get https://registry.npmjs.org/@types%2fwiredep not expired, no request
+918 silly addNameTag next cb for @types/wiredep with tag latest
+919 silly addNamed @types/wiredep@3.0.26-alpha
+920 verbose addNamed "3.0.26-alpha" is a plain semver version for @types/wiredep
+921 silly cache afterAdd @types/gulp-rev@5.0.28
+922 verbose afterAdd /Users/jsskeen/.npm/@types/gulp-rev/5.0.28/package/package.json not in flight; writing
+923 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+924 silly cache afterAdd @types/gulp-sass@0.0.28
+925 verbose afterAdd /Users/jsskeen/.npm/@types/gulp-sass/0.0.28/package/package.json not in flight; writing
+926 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+927 silly cache afterAdd @types/wiredep@3.0.26-alpha
+928 verbose afterAdd /Users/jsskeen/.npm/@types/wiredep/3.0.26-alpha/package/package.json not in flight; writing
+929 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+930 silly cache afterAdd @types/node@4.0.28-alpha
+931 verbose afterAdd /Users/jsskeen/.npm/@types/node/4.0.28-alpha/package/package.json not in flight; writing
+932 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+933 verbose afterAdd /Users/jsskeen/.npm/@types/wiredep/3.0.26-alpha/package/package.json written
+934 verbose afterAdd /Users/jsskeen/.npm/@types/gulp-rev/5.0.28/package/package.json written
+935 verbose afterAdd /Users/jsskeen/.npm/@types/node/4.0.28-alpha/package/package.json written
+936 verbose afterAdd /Users/jsskeen/.npm/@types/gulp-sass/0.0.28/package/package.json written
+937 http 304 https://registry.npmjs.org/@types%2fxml2js
+938 verbose headers { 'cache-control': 'max-age=0',
+938 verbose headers   'accept-ranges': 'bytes',
+938 verbose headers   date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+938 verbose headers   via: '1.1 varnish',
+938 verbose headers   connection: 'keep-alive',
+938 verbose headers   'x-served-by': 'cache-sjc3141-SJC',
+938 verbose headers   'x-cache': 'MISS',
+938 verbose headers   'x-cache-hits': '0',
+938 verbose headers   'x-timer': 'S1468510031.141216,VS0,VE646',
+938 verbose headers   vary: 'Accept-Encoding' }
+939 silly get cb [ 304,
+939 silly get   { 'cache-control': 'max-age=0',
+939 silly get     'accept-ranges': 'bytes',
+939 silly get     date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+939 silly get     via: '1.1 varnish',
+939 silly get     connection: 'keep-alive',
+939 silly get     'x-served-by': 'cache-sjc3141-SJC',
+939 silly get     'x-cache': 'MISS',
+939 silly get     'x-cache-hits': '0',
+939 silly get     'x-timer': 'S1468510031.141216,VS0,VE646',
+939 silly get     vary: 'Accept-Encoding' } ]
+940 verbose etag https://registry.npmjs.org/@types%2fxml2js from cache
+941 verbose get saving @types/xml2js to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fxml2js/.cache.json
+942 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+943 silly resolveWithNewModule @types/xml2js@0.0.26-alpha checking installable status
+944 silly cache add args [ '@types/xml2js@latest', null ]
+945 verbose cache add spec @types/xml2js@latest
+946 silly cache add parsed spec Result {
+946 silly cache add   raw: '@types/xml2js@latest',
+946 silly cache add   scope: '@types',
+946 silly cache add   name: '@types/xml2js',
+946 silly cache add   rawSpec: 'latest',
+946 silly cache add   spec: 'latest',
+946 silly cache add   type: 'tag' }
+947 silly addNamed @types/xml2js@latest
+948 verbose addNamed "latest" is being treated as a dist-tag for @types/xml2js
+949 info addNameTag [ '@types/xml2js', 'latest' ]
+950 silly mapToRegistry name @types/xml2js
+951 silly mapToRegistry scope (from package name) @types
+952 verbose mapToRegistry no registry URL found in name for scope @types
+953 silly mapToRegistry using default registry
+954 silly mapToRegistry registry https://registry.npmjs.org/
+955 silly mapToRegistry data Result {
+955 silly mapToRegistry   raw: '@types/xml2js',
+955 silly mapToRegistry   scope: '@types',
+955 silly mapToRegistry   name: '@types/xml2js',
+955 silly mapToRegistry   rawSpec: '',
+955 silly mapToRegistry   spec: 'latest',
+955 silly mapToRegistry   type: 'tag' }
+956 silly mapToRegistry uri https://registry.npmjs.org/@types%2fxml2js
+957 verbose addNameTag registry:https://registry.npmjs.org/@types%2fxml2js not in flight; fetching
+958 verbose get https://registry.npmjs.org/@types%2fxml2js not expired, no request
+959 silly addNameTag next cb for @types/xml2js with tag latest
+960 silly addNamed @types/xml2js@0.0.26-alpha
+961 verbose addNamed "0.0.26-alpha" is a plain semver version for @types/xml2js
+962 silly cache afterAdd @types/xml2js@0.0.26-alpha
+963 verbose afterAdd /Users/jsskeen/.npm/@types/xml2js/0.0.26-alpha/package/package.json not in flight; writing
+964 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+965 verbose afterAdd /Users/jsskeen/.npm/@types/xml2js/0.0.26-alpha/package/package.json written
+966 silly fetchNamedPackageData @types/jquery
+967 silly mapToRegistry name @types/jquery
+968 silly mapToRegistry scope (from package name) @types
+969 verbose mapToRegistry no registry URL found in name for scope @types
+970 silly mapToRegistry using default registry
+971 silly mapToRegistry registry https://registry.npmjs.org/
+972 silly mapToRegistry data Result {
+972 silly mapToRegistry   raw: '@types/jquery',
+972 silly mapToRegistry   scope: '@types',
+972 silly mapToRegistry   name: '@types/jquery',
+972 silly mapToRegistry   rawSpec: '',
+972 silly mapToRegistry   spec: 'latest',
+972 silly mapToRegistry   type: 'tag' }
+973 silly mapToRegistry uri https://registry.npmjs.org/@types%2fjquery
+974 verbose request uri https://registry.npmjs.org/@types%2fjquery
+975 verbose request no auth needed
+976 info attempt registry request try #1 at 9:27:10 AM
+977 verbose request using bearer token for auth
+978 verbose etag "EHXK4ILQUZKU0DOY7F6SK9S33"
+979 http request GET https://registry.npmjs.org/@types%2fjquery
+980 http 304 https://registry.npmjs.org/@types%2fjquery
+981 verbose headers { 'cache-control': 'max-age=0',
+981 verbose headers   'accept-ranges': 'bytes',
+981 verbose headers   date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+981 verbose headers   via: '1.1 varnish',
+981 verbose headers   connection: 'keep-alive',
+981 verbose headers   'x-served-by': 'cache-sjc3636-SJC',
+981 verbose headers   'x-cache': 'MISS',
+981 verbose headers   'x-cache-hits': '0',
+981 verbose headers   'x-timer': 'S1468510031.847854,VS0,VE106',
+981 verbose headers   vary: 'Accept-Encoding' }
+982 silly get cb [ 304,
+982 silly get   { 'cache-control': 'max-age=0',
+982 silly get     'accept-ranges': 'bytes',
+982 silly get     date: 'Thu, 14 Jul 2016 15:27:11 GMT',
+982 silly get     via: '1.1 varnish',
+982 silly get     connection: 'keep-alive',
+982 silly get     'x-served-by': 'cache-sjc3636-SJC',
+982 silly get     'x-cache': 'MISS',
+982 silly get     'x-cache-hits': '0',
+982 silly get     'x-timer': 'S1468510031.847854,VS0,VE106',
+982 silly get     vary: 'Accept-Encoding' } ]
+983 verbose etag https://registry.npmjs.org/@types%2fjquery from cache
+984 verbose get saving @types/jquery to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fjquery/.cache.json
+985 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+986 silly resolveWithNewModule @types/jquery@1.10.27 checking installable status
+987 silly cache add args [ '@types/jquery@1.10.*', null ]
+988 verbose cache add spec @types/jquery@1.10.*
+989 silly cache add parsed spec Result {
+989 silly cache add   raw: '@types/jquery@1.10.*',
+989 silly cache add   scope: '@types',
+989 silly cache add   name: '@types/jquery',
+989 silly cache add   rawSpec: '1.10.*',
+989 silly cache add   spec: '>=1.10.0 <1.11.0',
+989 silly cache add   type: 'range' }
+990 silly addNamed @types/jquery@>=1.10.0 <1.11.0
+991 verbose addNamed ">=1.10.0 <1.11.0" is a valid semver range for @types/jquery
+992 silly addNameRange { name: '@types/jquery',
+992 silly addNameRange   range: '>=1.10.0 <1.11.0',
+992 silly addNameRange   hasData: false }
+993 silly mapToRegistry name @types/jquery
+994 silly mapToRegistry scope (from package name) @types
+995 verbose mapToRegistry no registry URL found in name for scope @types
+996 silly mapToRegistry using default registry
+997 silly mapToRegistry registry https://registry.npmjs.org/
+998 silly mapToRegistry data Result {
+998 silly mapToRegistry   raw: '@types/jquery',
+998 silly mapToRegistry   scope: '@types',
+998 silly mapToRegistry   name: '@types/jquery',
+998 silly mapToRegistry   rawSpec: '',
+998 silly mapToRegistry   spec: 'latest',
+998 silly mapToRegistry   type: 'tag' }
+999 silly mapToRegistry uri https://registry.npmjs.org/@types%2fjquery
+1000 verbose addNameRange registry:https://registry.npmjs.org/@types%2fjquery not in flight; fetching
+1001 verbose get https://registry.npmjs.org/@types%2fjquery not expired, no request
+1002 silly addNameRange number 2 { name: '@types/jquery',
+1002 silly addNameRange   range: '>=1.10.0 <1.11.0',
+1002 silly addNameRange   hasData: true }
+1003 silly addNameRange versions [ '@types/jquery',
+1003 silly addNameRange   [ '1.10.8-alpha',
+1003 silly addNameRange     '1.10.14-alpha',
+1003 silly addNameRange     '1.10.15-alpha',
+1003 silly addNameRange     '1.10.20-alpha',
+1003 silly addNameRange     '1.10.21-alpha',
+1003 silly addNameRange     '1.10.22-alpha',
+1003 silly addNameRange     '1.10.23-alpha',
+1003 silly addNameRange     '1.10.24-alpha',
+1003 silly addNameRange     '1.10.25-alpha',
+1003 silly addNameRange     '1.10.26-alpha',
+1003 silly addNameRange     '1.10.27' ] ]
+1004 silly addNamed @types/jquery@1.10.27
+1005 verbose addNamed "1.10.27" is a plain semver version for @types/jquery
+1006 silly cache afterAdd @types/jquery@1.10.27
+1007 verbose afterAdd /Users/jsskeen/.npm/@types/jquery/1.10.27/package/package.json not in flight; writing
+1008 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+1009 verbose afterAdd /Users/jsskeen/.npm/@types/jquery/1.10.27/package/package.json written
+1010 silly fetchNamedPackageData @types/chokidar
+1011 silly mapToRegistry name @types/chokidar
+1012 silly mapToRegistry scope (from package name) @types
+1013 verbose mapToRegistry no registry URL found in name for scope @types
+1014 silly mapToRegistry using default registry
+1015 silly mapToRegistry registry https://registry.npmjs.org/
+1016 silly mapToRegistry data Result {
+1016 silly mapToRegistry   raw: '@types/chokidar',
+1016 silly mapToRegistry   scope: '@types',
+1016 silly mapToRegistry   name: '@types/chokidar',
+1016 silly mapToRegistry   rawSpec: '',
+1016 silly mapToRegistry   spec: 'latest',
+1016 silly mapToRegistry   type: 'tag' }
+1017 silly mapToRegistry uri https://registry.npmjs.org/@types%2fchokidar
+1018 silly fetchNamedPackageData @types/micromatch
+1019 silly mapToRegistry name @types/micromatch
+1020 silly mapToRegistry scope (from package name) @types
+1021 verbose mapToRegistry no registry URL found in name for scope @types
+1022 silly mapToRegistry using default registry
+1023 silly mapToRegistry registry https://registry.npmjs.org/
+1024 silly mapToRegistry data Result {
+1024 silly mapToRegistry   raw: '@types/micromatch',
+1024 silly mapToRegistry   scope: '@types',
+1024 silly mapToRegistry   name: '@types/micromatch',
+1024 silly mapToRegistry   rawSpec: '',
+1024 silly mapToRegistry   spec: 'latest',
+1024 silly mapToRegistry   type: 'tag' }
+1025 silly mapToRegistry uri https://registry.npmjs.org/@types%2fmicromatch
+1026 silly fetchNamedPackageData @types/node
+1027 silly mapToRegistry name @types/node
+1028 silly mapToRegistry scope (from package name) @types
+1029 verbose mapToRegistry no registry URL found in name for scope @types
+1030 silly mapToRegistry using default registry
+1031 silly mapToRegistry registry https://registry.npmjs.org/
+1032 silly mapToRegistry data Result {
+1032 silly mapToRegistry   raw: '@types/node',
+1032 silly mapToRegistry   scope: '@types',
+1032 silly mapToRegistry   name: '@types/node',
+1032 silly mapToRegistry   rawSpec: '',
+1032 silly mapToRegistry   spec: 'latest',
+1032 silly mapToRegistry   type: 'tag' }
+1033 silly mapToRegistry uri https://registry.npmjs.org/@types%2fnode
+1034 silly fetchNamedPackageData No valid target from cache, forcing network
+1035 verbose request uri https://registry.npmjs.org/@types%2fnode
+1036 verbose request no auth needed
+1037 info attempt registry request try #1 at 9:27:10 AM
+1038 verbose request using bearer token for auth
+1039 http request GET https://registry.npmjs.org/@types%2fnode
+1040 verbose request uri https://registry.npmjs.org/@types%2fmicromatch
+1041 verbose request no auth needed
+1042 info attempt registry request try #1 at 9:27:10 AM
+1043 verbose request using bearer token for auth
+1044 verbose etag "AF2B2H21079VSEGYD2VW18YBE"
+1045 http request GET https://registry.npmjs.org/@types%2fmicromatch
+1046 verbose request uri https://registry.npmjs.org/@types%2fchokidar
+1047 verbose request no auth needed
+1048 info attempt registry request try #1 at 9:27:10 AM
+1049 verbose request using bearer token for auth
+1050 verbose etag "5QL05294F9D36MXIMO98FIX98"
+1051 http request GET https://registry.npmjs.org/@types%2fchokidar
+1052 http 200 https://registry.npmjs.org/@types%2fnode
+1053 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1053 verbose headers   etag: '"EXIP0I4QLAJIIZEFAGF5UG46A"',
+1053 verbose headers   'content-type': 'application/json',
+1053 verbose headers   'content-encoding': 'gzip',
+1053 verbose headers   'cache-control': 'max-age=0',
+1053 verbose headers   'transfer-encoding': 'chunked',
+1053 verbose headers   'accept-ranges': 'bytes',
+1053 verbose headers   date: 'Thu, 14 Jul 2016 15:27:12 GMT',
+1053 verbose headers   via: '1.1 varnish',
+1053 verbose headers   connection: 'keep-alive',
+1053 verbose headers   'x-served-by': 'cache-sjc3622-SJC',
+1053 verbose headers   'x-cache': 'MISS',
+1053 verbose headers   'x-cache-hits': '0',
+1053 verbose headers   'x-timer': 'S1468510032.012161,VS0,VE384',
+1053 verbose headers   vary: 'Accept-Encoding' }
+1054 silly get cb [ 200,
+1054 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1054 silly get     etag: '"EXIP0I4QLAJIIZEFAGF5UG46A"',
+1054 silly get     'content-type': 'application/json',
+1054 silly get     'content-encoding': 'gzip',
+1054 silly get     'cache-control': 'max-age=0',
+1054 silly get     'transfer-encoding': 'chunked',
+1054 silly get     'accept-ranges': 'bytes',
+1054 silly get     date: 'Thu, 14 Jul 2016 15:27:12 GMT',
+1054 silly get     via: '1.1 varnish',
+1054 silly get     connection: 'keep-alive',
+1054 silly get     'x-served-by': 'cache-sjc3622-SJC',
+1054 silly get     'x-cache': 'MISS',
+1054 silly get     'x-cache-hits': '0',
+1054 silly get     'x-timer': 'S1468510032.012161,VS0,VE384',
+1054 silly get     vary: 'Accept-Encoding' } ]
+1055 verbose get saving @types/node to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fnode/.cache.json
+1056 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+1057 silly fetchPackageMetaData Error: No compatible version found: @types/node@4.0.*
+1057 silly fetchPackageMetaData Valid install targets:
+1057 silly fetchPackageMetaData 4.0.28-alpha, 4.0.27-alpha, 4.0.26-alpha, 4.0.25-alpha, 4.0.24-alpha, 4.0.23-alpha, 4.0.22-alpha, 4.0.21-alpha, 4.0.16-alpha, 4.0.15-alpha
+1057 silly fetchPackageMetaData
+1057 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/Users/jsskeen/.node_modules/.npm-packages/lib/node_modules/npm/lib/fetch-package-metadata.js:170:16)
+1057 silly fetchPackageMetaData     at /Users/jsskeen/.node_modules/.npm-packages/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+1057 silly fetchPackageMetaData     at /Users/jsskeen/.node_modules/.npm-packages/lib/node_modules/npm/lib/utils/pulse-till-done.js:19:8
+1057 silly fetchPackageMetaData     at saved (/Users/jsskeen/.node_modules/.npm-packages/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+1057 silly fetchPackageMetaData     at /Users/jsskeen/.node_modules/.npm-packages/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+1057 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:117:15)
+1057 silly fetchPackageMetaData  error for @types/node@4.0.* Error: No compatible version found: @types/node@4.0.*
+1057 silly fetchPackageMetaData Valid install targets:
+1057 silly fetchPackageMetaData 4.0.28-alpha, 4.0.27-alpha, 4.0.26-alpha, 4.0.25-alpha, 4.0.24-alpha, 4.0.23-alpha, 4.0.22-alpha, 4.0.21-alpha, 4.0.16-alpha, 4.0.15-alpha
+1057 silly fetchPackageMetaData
+1057 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/Users/jsskeen/.node_modules/.npm-packages/lib/node_modules/npm/lib/fetch-package-metadata.js:170:16)
+1057 silly fetchPackageMetaData     at /Users/jsskeen/.node_modules/.npm-packages/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+1057 silly fetchPackageMetaData     at /Users/jsskeen/.node_modules/.npm-packages/lib/node_modules/npm/lib/utils/pulse-till-done.js:19:8
+1057 silly fetchPackageMetaData     at saved (/Users/jsskeen/.node_modules/.npm-packages/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+1057 silly fetchPackageMetaData     at /Users/jsskeen/.node_modules/.npm-packages/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+1057 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:117:15)
+1058 http 304 https://registry.npmjs.org/@types%2fmicromatch
+1059 verbose headers { 'cache-control': 'max-age=0',
+1059 verbose headers   'accept-ranges': 'bytes',
+1059 verbose headers   date: 'Thu, 14 Jul 2016 15:27:12 GMT',
+1059 verbose headers   via: '1.1 varnish',
+1059 verbose headers   connection: 'keep-alive',
+1059 verbose headers   'x-served-by': 'cache-sjc3132-SJC',
+1059 verbose headers   'x-cache': 'MISS',
+1059 verbose headers   'x-cache-hits': '0',
+1059 verbose headers   'x-timer': 'S1468510032.014075,VS0,VE642',
+1059 verbose headers   vary: 'Accept-Encoding' }
+1060 silly get cb [ 304,
+1060 silly get   { 'cache-control': 'max-age=0',
+1060 silly get     'accept-ranges': 'bytes',
+1060 silly get     date: 'Thu, 14 Jul 2016 15:27:12 GMT',
+1060 silly get     via: '1.1 varnish',
+1060 silly get     connection: 'keep-alive',
+1060 silly get     'x-served-by': 'cache-sjc3132-SJC',
+1060 silly get     'x-cache': 'MISS',
+1060 silly get     'x-cache-hits': '0',
+1060 silly get     'x-timer': 'S1468510032.014075,VS0,VE642',
+1060 silly get     vary: 'Accept-Encoding' } ]
+1061 verbose etag https://registry.npmjs.org/@types%2fmicromatch from cache
+1062 verbose get saving @types/micromatch to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fmicromatch/.cache.json
+1063 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+1064 silly resolveWithNewModule @types/micromatch@2.3.28 checking installable status
+1065 silly cache add args [ '@types/micromatch@2.3.*', null ]
+1066 verbose cache add spec @types/micromatch@2.3.*
+1067 silly cache add parsed spec Result {
+1067 silly cache add   raw: '@types/micromatch@2.3.*',
+1067 silly cache add   scope: '@types',
+1067 silly cache add   name: '@types/micromatch',
+1067 silly cache add   rawSpec: '2.3.*',
+1067 silly cache add   spec: '>=2.3.0 <2.4.0',
+1067 silly cache add   type: 'range' }
+1068 silly addNamed @types/micromatch@>=2.3.0 <2.4.0
+1069 verbose addNamed ">=2.3.0 <2.4.0" is a valid semver range for @types/micromatch
+1070 silly addNameRange { name: '@types/micromatch',
+1070 silly addNameRange   range: '>=2.3.0 <2.4.0',
+1070 silly addNameRange   hasData: false }
+1071 silly mapToRegistry name @types/micromatch
+1072 silly mapToRegistry scope (from package name) @types
+1073 verbose mapToRegistry no registry URL found in name for scope @types
+1074 silly mapToRegistry using default registry
+1075 silly mapToRegistry registry https://registry.npmjs.org/
+1076 silly mapToRegistry data Result {
+1076 silly mapToRegistry   raw: '@types/micromatch',
+1076 silly mapToRegistry   scope: '@types',
+1076 silly mapToRegistry   name: '@types/micromatch',
+1076 silly mapToRegistry   rawSpec: '',
+1076 silly mapToRegistry   spec: 'latest',
+1076 silly mapToRegistry   type: 'tag' }
+1077 silly mapToRegistry uri https://registry.npmjs.org/@types%2fmicromatch
+1078 verbose addNameRange registry:https://registry.npmjs.org/@types%2fmicromatch not in flight; fetching
+1079 verbose get https://registry.npmjs.org/@types%2fmicromatch not expired, no request
+1080 silly addNameRange number 2 { name: '@types/micromatch',
+1080 silly addNameRange   range: '>=2.3.0 <2.4.0',
+1080 silly addNameRange   hasData: true }
+1081 silly addNameRange versions [ '@types/micromatch',
+1081 silly addNameRange   [ '2.3.15-alpha',
+1081 silly addNameRange     '2.3.16-alpha',
+1081 silly addNameRange     '2.3.21-alpha',
+1081 silly addNameRange     '2.3.22-alpha',
+1081 silly addNameRange     '2.3.23-alpha',
+1081 silly addNameRange     '2.3.24-alpha',
+1081 silly addNameRange     '2.3.25-alpha',
+1081 silly addNameRange     '2.3.26-alpha',
+1081 silly addNameRange     '2.3.27-alpha',
+1081 silly addNameRange     '2.3.28' ] ]
+1082 silly addNamed @types/micromatch@2.3.28
+1083 verbose addNamed "2.3.28" is a plain semver version for @types/micromatch
+1084 silly cache afterAdd @types/micromatch@2.3.28
+1085 verbose afterAdd /Users/jsskeen/.npm/@types/micromatch/2.3.28/package/package.json not in flight; writing
+1086 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+1087 verbose afterAdd /Users/jsskeen/.npm/@types/micromatch/2.3.28/package/package.json written
+1088 http 304 https://registry.npmjs.org/@types%2fchokidar
+1089 verbose headers { 'cache-control': 'max-age=0',
+1089 verbose headers   'accept-ranges': 'bytes',
+1089 verbose headers   date: 'Thu, 14 Jul 2016 15:27:12 GMT',
+1089 verbose headers   via: '1.1 varnish',
+1089 verbose headers   connection: 'keep-alive',
+1089 verbose headers   'x-served-by': 'cache-sjc3632-SJC',
+1089 verbose headers   'x-cache': 'MISS',
+1089 verbose headers   'x-cache-hits': '0',
+1089 verbose headers   'x-timer': 'S1468510032.014051,VS0,VE656',
+1089 verbose headers   vary: 'Accept-Encoding' }
+1090 silly get cb [ 304,
+1090 silly get   { 'cache-control': 'max-age=0',
+1090 silly get     'accept-ranges': 'bytes',
+1090 silly get     date: 'Thu, 14 Jul 2016 15:27:12 GMT',
+1090 silly get     via: '1.1 varnish',
+1090 silly get     connection: 'keep-alive',
+1090 silly get     'x-served-by': 'cache-sjc3632-SJC',
+1090 silly get     'x-cache': 'MISS',
+1090 silly get     'x-cache-hits': '0',
+1090 silly get     'x-timer': 'S1468510032.014051,VS0,VE656',
+1090 silly get     vary: 'Accept-Encoding' } ]
+1091 verbose etag https://registry.npmjs.org/@types%2fchokidar from cache
+1092 verbose get saving @types/chokidar to /Users/jsskeen/.npm/registry.npmjs.org/_40types_252fchokidar/.cache.json
+1093 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+1094 silly resolveWithNewModule @types/chokidar@1.4.28 checking installable status
+1095 silly cache add args [ '@types/chokidar@1.4.*', null ]
+1096 verbose cache add spec @types/chokidar@1.4.*
+1097 silly cache add parsed spec Result {
+1097 silly cache add   raw: '@types/chokidar@1.4.*',
+1097 silly cache add   scope: '@types',
+1097 silly cache add   name: '@types/chokidar',
+1097 silly cache add   rawSpec: '1.4.*',
+1097 silly cache add   spec: '>=1.4.0 <1.5.0',
+1097 silly cache add   type: 'range' }
+1098 silly addNamed @types/chokidar@>=1.4.0 <1.5.0
+1099 verbose addNamed ">=1.4.0 <1.5.0" is a valid semver range for @types/chokidar
+1100 silly addNameRange { name: '@types/chokidar',
+1100 silly addNameRange   range: '>=1.4.0 <1.5.0',
+1100 silly addNameRange   hasData: false }
+1101 silly mapToRegistry name @types/chokidar
+1102 silly mapToRegistry scope (from package name) @types
+1103 verbose mapToRegistry no registry URL found in name for scope @types
+1104 silly mapToRegistry using default registry
+1105 silly mapToRegistry registry https://registry.npmjs.org/
+1106 silly mapToRegistry data Result {
+1106 silly mapToRegistry   raw: '@types/chokidar',
+1106 silly mapToRegistry   scope: '@types',
+1106 silly mapToRegistry   name: '@types/chokidar',
+1106 silly mapToRegistry   rawSpec: '',
+1106 silly mapToRegistry   spec: 'latest',
+1106 silly mapToRegistry   type: 'tag' }
+1107 silly mapToRegistry uri https://registry.npmjs.org/@types%2fchokidar
+1108 verbose addNameRange registry:https://registry.npmjs.org/@types%2fchokidar not in flight; fetching
+1109 verbose get https://registry.npmjs.org/@types%2fchokidar not expired, no request
+1110 silly addNameRange number 2 { name: '@types/chokidar',
+1110 silly addNameRange   range: '>=1.4.0 <1.5.0',
+1110 silly addNameRange   hasData: true }
+1111 silly addNameRange versions [ '@types/chokidar',
+1111 silly addNameRange   [ '1.4.15-alpha',
+1111 silly addNameRange     '1.4.16-alpha',
+1111 silly addNameRange     '1.4.21-alpha',
+1111 silly addNameRange     '1.4.22-alpha',
+1111 silly addNameRange     '1.4.23-alpha',
+1111 silly addNameRange     '1.4.24-alpha',
+1111 silly addNameRange     '1.4.25-alpha',
+1111 silly addNameRange     '1.4.26-alpha',
+1111 silly addNameRange     '1.4.27-alpha',
+1111 silly addNameRange     '1.4.28' ] ]
+1112 silly addNamed @types/chokidar@1.4.28
+1113 verbose addNamed "1.4.28" is a plain semver version for @types/chokidar
+1114 silly cache afterAdd @types/chokidar@1.4.28
+1115 verbose afterAdd /Users/jsskeen/.npm/@types/chokidar/1.4.28/package/package.json not in flight; writing
+1116 verbose correctMkdir /Users/jsskeen/.npm correctMkdir not in flight; initializing
+1117 verbose afterAdd /Users/jsskeen/.npm/@types/chokidar/1.4.28/package/package.json written
+1118 silly rollbackFailedOptional Starting
+1119 silly rollbackFailedOptional Finishing
+1120 silly runTopLevelLifecycles Starting
+1121 silly runTopLevelLifecycles Finishing
+1122 silly install printInstalled
+1123 verbose stack Error: No compatible version found: @types/node@4.0.*
+1123 verbose stack Valid install targets:
+1123 verbose stack 4.0.28-alpha, 4.0.27-alpha, 4.0.26-alpha, 4.0.25-alpha, 4.0.24-alpha, 4.0.23-alpha, 4.0.22-alpha, 4.0.21-alpha, 4.0.16-alpha, 4.0.15-alpha
+1123 verbose stack
+1123 verbose stack     at pickVersionFromRegistryDocument (/Users/jsskeen/.node_modules/.npm-packages/lib/node_modules/npm/lib/fetch-package-metadata.js:170:16)
+1123 verbose stack     at /Users/jsskeen/.node_modules/.npm-packages/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+1123 verbose stack     at /Users/jsskeen/.node_modules/.npm-packages/lib/node_modules/npm/lib/utils/pulse-till-done.js:19:8
+1123 verbose stack     at saved (/Users/jsskeen/.node_modules/.npm-packages/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+1123 verbose stack     at /Users/jsskeen/.node_modules/.npm-packages/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+1123 verbose stack     at FSReqWrap.oncomplete (fs.js:117:15)
+1124 verbose cwd /Users/jsskeen/git/ngExamples/mars-ts
+1125 error Darwin 15.5.0
+1126 error argv "/usr/local/bin/node" "/Users/jsskeen/.node_modules/.npm-packages/bin/npm" "install"
+1127 error node v6.0.0
+1128 error npm  v3.9.5
+1129 error No compatible version found: @types/node@4.0.*
+1129 error Valid install targets:
+1129 error 4.0.28-alpha, 4.0.27-alpha, 4.0.26-alpha, 4.0.25-alpha, 4.0.24-alpha, 4.0.23-alpha, 4.0.22-alpha, 4.0.21-alpha, 4.0.16-alpha, 4.0.15-alpha
+1130 error If you need help, you may report this error at:
+1130 error     <https://github.com/npm/npm/issues>
+1131 verbose exit [ 1, true ]

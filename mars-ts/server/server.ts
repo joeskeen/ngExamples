@@ -4,7 +4,10 @@ import * as express from 'express';
 import { Express } from "express-serve-static-core";
 import * as xml2js from 'xml2js';
 import * as through2 from 'through2';
+import * as fs from 'fs';
 const app = express();
+const configFile = join(__dirname, 'serverConfig.json');
+const serverConfig = JSON.parse(fs.readFileSync(configFile).toString());
 
 const appRoot = join(__dirname, '..', 'client/built');
 

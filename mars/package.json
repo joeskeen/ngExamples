@@ -7,6 +7,7 @@
   "author": "Joe Skeen <joeskeen@outlook.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/angular": "^1.5.5-beta",
     "bower": "^1.4.1"
   },
   "dependencies": {

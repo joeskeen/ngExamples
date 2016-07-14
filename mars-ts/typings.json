@@ -1,0 +1,33 @@
+{
+  "globalDependencies": {
+    "angular": "registry:dt/angular#1.5.0+20160709055139",
+    "angular-material": "registry:dt/angular-material#1.0.0-rc5.0+20160627174759",
+    "angular-route": "registry:dt/angular-route#1.3.0+20160317120654",
+    "browser-sync": "registry:dt/browser-sync#0.0.0+20160524142403",
+    "del": "registry:dt/del#2.2.0+20160317120654",
+    "express": "registry:dt/express#4.0.0+20160708185218",
+    "express-serve-static-core": "registry:dt/express-serve-static-core#4.0.0+20160711183608",
+    "glob": "registry:dt/glob#5.0.10+20160317120654",
+    "gulp": "registry:dt/gulp#3.8.0+20160316155526",
+    "gulp-autoprefixer": "registry:dt/gulp-autoprefixer#0.0.0+20160316155526",
+    "gulp-if": "registry:dt/gulp-if#0.0.0+20160316155526",
+    "gulp-load-plugins": "registry:dt/gulp-load-plugins#0.0.0+20160316155526",
+    "gulp-nodemon": "registry:dt/gulp-nodemon#0.0.0+20160316155526",
+    "gulp-replace": "registry:dt/gulp-replace#0.0.0+20160316155526",
+    "gulp-rev": "registry:dt/gulp-rev#5.0.1+20160316155526",
+    "gulp-rev-replace": "registry:dt/gulp-rev-replace#0.2.1+20160316155526",
+    "gulp-sass": "registry:dt/gulp-sass#0.0.0+20160316155526",
+    "gulp-sourcemaps": "registry:dt/gulp-sourcemaps#0.0.0+20160316155526",
+    "jasmine": "registry:dt/jasmine#2.2.0+20160621224255",
+    "karma": "registry:dt/karma#0.13.9+20160501125529",
+    "minimatch": "registry:dt/minimatch#2.0.8+20160317120654",
+    "node": "registry:dt/node#6.0.0+20160709114037",
+    "orchestrator": "registry:dt/orchestrator#0.0.0+20160316155526",
+    "q": "registry:dt/q#0.0.0+20160613154756",
+    "request": "registry:dt/request#0.0.0+20160524135346",
+    "through2": "registry:dt/through2#2.0.0+20160317120654",
+    "wiredep": "registry:dt/wiredep#3.0.0+20160317120654",
+    "xml2js": "registry:dt/xml2js#0.0.0+20160317120654",
+    "yargs": "registry:dt/yargs#0.0.0+20160619033636"
+  }
+}

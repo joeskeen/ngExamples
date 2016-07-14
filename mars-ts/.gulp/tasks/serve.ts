@@ -1,50 +1,75 @@
-import { config, runtimeConfig, args } from '../config';
+/// <reference path="../../typings/globals/browser-sync/index.d.ts" />
+
+import { config, runtimeConfig, serverConfig, args } from '../config';
 import { $ } from '../plugins';
+import { log } from '../log';
 
 import * as browserSync from 'browser-sync';
 import * as url from 'url';
-const proxyMiddleware = require('proxy-middleware');
 
 interface IServeOptions {
 	root: string | string[];
 	port: number;
 	index?: string;
+	server?: boolean;
 }
 
 export function serve(options: IServeOptions, watchFiles: string[], done?: Function) {
+	log('starting nodemon...');
+	return $.nodemon({
+		script: `${config.out.serverBuilt}server.js`,
+		watch: [ config.out.serverBuilt ],
+		delay: 1
+	})
+	.on('start', () => {
+		log('nodemon started');
+		try {
+			log('browserSync Starting');
+			startBrowserSync(options, watchFiles);
+			log('browserSync Started');
+		} catch (error) {
+			log('error starting browserSync', error);
+		}
+	})
+	.on('restart', (e) => {
+		log('nodemon restarted', e);
+		browserSync.reload();
+	})
+	.on('crash', (e) => {
+		log('nodemon crashed', e);
+		browserSync.exit();
+		if (done)
+			done();
+	})
+	.on('exit', () => {
+		log('nodemon exited');
+		browserSync.exit();
+		if (done)
+			done();
+	});
+}
+
+export function startBrowserSync(options: IServeOptions, watchFiles: string[], done?: Function) {
 	const port = options.port;
-	const serveUrl = `http://localhost:${port}/`;
-	const proxyTo = `${config.backend.url()}${config.slug}/`;
-	console.log(`Server requests will be proxied to '${proxyTo}'.`);
 
-	const proxies = [
-		{ route: `/${config.slug}/`, forwardTo: proxyTo }
-	];
-	const middleware = [ ];
-	for (let i = 0; i < proxies.length; i++) {
-		const proxyEntry = proxies[i];
-		const proxy: any = url.parse(proxyEntry.forwardTo);
-		proxy.route = proxyEntry.route;
-		proxy.via = true;
-		proxy.cookieRewrite = true;
-		proxy.preserveHost = true;
-		middleware.push(proxyMiddleware(proxy));
-	}
-
-	const bs = browserSync.create('serve');
-	return bs.init({
-		open: !runtimeConfig['noserve'] && !!watchFiles,
+	const bsOptions: any = {
+		open: options.index || !runtimeConfig['noserve'] && !!watchFiles,
 		port: port,
-		server: {
+		ui: { port: port + 1 },
+		files: watchFiles
+	};
+
+	if (options.server) {
+		bsOptions.server = {
 			baseDir: options.root,
 			index: options.index || 'index.html',
-			middleware: middleware
-		},
-		ui: {
-			port: port + 1
-		},
-		files: watchFiles
-	}, () => {
+			middleware: []
+		}
+	} else {
+		bsOptions.proxy = 'localhost:' + serverConfig.defaultPort;
+	}
+
+	return browserSync.create().init(bsOptions, () => {
 		if (done)
 			done();
 	});
