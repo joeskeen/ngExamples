@@ -5,11 +5,12 @@ import * as del from 'del';
 import * as sequence from 'run-sequence';
 
 import { $ } from './plugins';
-import { config } from './config';
+import { config, runtimeConfig, args } from './config';
 import * as build from './tasks/build';
 import * as bundle from './tasks/bundle';
 import * as serve from './tasks/serve';
 import * as test from './tasks/unit-tests';
+import * as e2e from './tasks/e2e-test';
 
 const gulpHelp = $.help(gulp, { hideEmpty: true });
 
@@ -31,6 +32,11 @@ gulpHelp.task('test',
   'Runs unit tests using Karma and Jasmine.',
   (done) => sequence(['build-specs'], () => test.runKarma(done)),
   { aliases: ['karma', 'unit-tests'] });
+
+gulpHelp.task('e2e',
+  'Runs Protractor tests.',
+  (done) => sequence(['install-protractor', 'serve-dist'], 'build-e2e', 'launch-protractor-local', done),
+  { aliases: ['functional', 'ui-tests', 'protractor'] });
 
 gulp.task('build', ['js','css','templates'], () => build.buildIndex());
 gulp.task('js', () => build.js(
@@ -56,11 +62,18 @@ gulp.task('run-server', ['build-server', 'build', 'watch-client', 'watch-server'
 gulp.task('build-specs', ['js', 'js-specs'], () => test.injectSpecRunner());
 gulp.task('js-specs', () => build.js(config.test.spec.ts.concat(config.test.spec.karmaConfig), config.out.test.spec));
 
+gulp.task('build-e2e', () => build.js(config.all('ts', config.test.e2e.root), config.out.test.e2e));
+gulp.task('install-protractor', (done) => {
+  runtimeConfig['noserve'] = true;
+  e2e.updateWebDriver(done);
+});
+
 gulp.task('clean', () => del(config.out.root));
 gulp.task('clean-dist', () => del(config.out.dist));
 
 gulp.task('launch-specRunner', () => test.serveSpecRunner());
 gulp.task('launch-dist', () => serve.serveDist());
+gulp.task('launch-protractor-local', () => e2e.runProtractor(`http://localhost:${args.port || config.serve.port}/`));
 
 gulp.task('watch-client', () => gulp.watch(
   [ config.all('{ts,scss,html}', config.client.root) ], 

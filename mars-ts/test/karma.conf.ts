@@ -48,7 +48,7 @@ module.exports = function (config) {
         autoWatch: false,
 
         // base path, that will be used to resolve files and exclude
-        basePath: '../.generated/client',
+        basePath: '../../../.generated/client',
 
         // testing framework to use (jasmine/mocha/qunit/...)
         frameworks: ['jasmine'],

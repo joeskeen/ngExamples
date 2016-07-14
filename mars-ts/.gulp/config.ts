@@ -40,7 +40,7 @@ export const config = {
       spec: `${outRoot}test/spec/`, 
       e2e: `${outRoot}test/functional/`,
       karmaConfig: `${outRoot}test/spec/karma.conf.js`,
-      protractorConfig: `${outRoot}test/functional/conf.js`,
+      protractorConfig: `${outRoot}test/functional/protractor.conf.js`,
       report: `${outRoot}test/report/`
     }
   },

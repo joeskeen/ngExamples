@@ -2,7 +2,10 @@
 
 describe('NewsController', () => {
   it('should transform the pubDate of RSS items from a string to a Date');
-  it('should have a failing test', () => {
+  it('should have a passing test', () => {
+    expect(true).toBeTruthy();
+  });
+  xit('should have a failing test', () => {
     throw new Error();
   });
 });
